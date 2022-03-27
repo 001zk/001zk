@@ -13,7 +13,7 @@
   <img align="center" alt="LzK-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="LzK-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="LzK-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="LzK-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  <img align="center" alt="LzK-termux" height="40" width="40" src="https://user-images.githubusercontent.com/20235646/42320864-8635e462-8074-11e8-86fb-e9ae81754dfd.png">
  <img align="right" alt="LzK-pic" height="100" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/854597857390231574/957490480583704616/e2bdc49223e075dd7ddf810756b119ad.jpg">
   </div>
   
