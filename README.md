@@ -7,13 +7,16 @@
 <div style="display: inline_block"><br>
   
 
-  <img align="center" alt="LzK-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="LzK-android" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg">
-  <img align="center" alt="LzK-mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="center" alt="LzK-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="LzK-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="LzK-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="LzK-termux" height="40" width="40" src="https://user-images.githubusercontent.com/20235646/42320864-8635e462-8074-11e8-86fb-e9ae81754dfd.png">
+  <img align="center" alt="LzK-Js" height="32" width="130" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+  <img align="center" alt="LzK-android" height="32" width="130" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img align="center" alt="LzK-mysql" height="32" width="130" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+  <img align="center" alt="LzK-HTML" height="32" width="130" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <div/>
+  <img align="center" alt="LzK-CSS" height="32" width="130" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img align="center" alt="LzK-Python" height="32" width="130" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
+  <img align="center" alt="LzK-Tor" height="32" width="130" src="https://img.shields.io/badge/Tor_Browser-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white">
+  <img align="center" alt="LzK-Linux" height="32" width="130" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  
  <img align="right" alt="LzK-pic" height="100" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/854597857390231574/957490480583704616/e2bdc49223e075dd7ddf810756b119ad.jpg">
   </div>
   
