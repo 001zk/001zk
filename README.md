@@ -14,7 +14,7 @@
   <div/>
   <img align="center" alt="LzK-CSS" height="32" width="130" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img align="center" alt="LzK-Python" height="32" width="130" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
-  <img align="center" alt="LzK-Tor" height="32" width="130" src="https://img.shields.io/badge/Tor_Browser-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white">
+  <img align="center" alt="LzK-Lua" height="32" width="130" src="https://img.shields.io/badge/Lua-FFFFFF?style=for-the-badge&logo=Lua&logoColor=blue">
   <img align="center" alt="LzK-Linux" height="32" width="130" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
   
  <img align="right" alt="LzK-pic" height="100" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/854597857390231574/957490480583704616/e2bdc49223e075dd7ddf810756b119ad.jpg">
