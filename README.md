@@ -1,41 +1,52 @@
-## Oie, eu sou LzK
+
+### Olá! eu sou Lzk ou  eu sou Luíz voce escolhe :)
+ 📚Cursando algumas coisas :)
+💻Desenvolvedor Froent-end
+📩contate-me nas minhas redes sociais que estao na bio e no readme
+ 
+ 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+LzK;+or+Luíz+depends+on+your+preference+;I'm+15+years+old;I+from+Brasil,+campos//rj;I+study+programming+at+house;Be+Welcome!+:%22)](https://git.io/typing-svg)
 <div align="center">
   <a href="https://github.com/001zk">
-  <img height="130em" src="https://github-readme-stats.vercel.app/api?username=001zk&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true"/>
-  <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&layout=compact&langs_count=7&theme=synthwave"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=001zk&count_private=true&include_all_commits=true&show_icons=true&theme=swift&hide_border=false&show_owner=true"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=swift&hide_border=false&&layout=compact"/>
+  </a>
 </div>
-<div style="display: inline_block"><br>
-  
+ <div align="center" valign="top"><br>
+  <img align="center" alt="Ruby" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
+  <img align="center" alt="discord-js" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-plain.svg" />
 
-  <img align="center" alt="LzK-Js" height="32" width="130" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-  <img align="center" alt="LzK-android" height="32" width="130" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
-  <img align="center" alt="LzK-mysql" height="32" width="130" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
-  <img align="center" alt="LzK-HTML" height="32" width="130" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <div/>
-  <img align="center" alt="LzK-CSS" height="32" width="130" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img align="center" alt="LzK-Python" height="32" width="130" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
-  <img align="center" alt="LzK-Lua" height="32" width="130" src="https://img.shields.io/badge/Lua-FFFFFF?style=for-the-badge&logo=Lua&logoColor=blue">
-  <img align="center" alt="LzK-Linux" height="32" width="130" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  
- <img align="right" alt="LzK-pic" height="100" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/854597857390231574/957490480583704616/e2bdc49223e075dd7ddf810756b119ad.jpg">
-  </div>
-  
-  ##
+  <img align="center" alt="Js" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="python" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg">
+  <img align="center" alt="lua" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-plain-wordmark.svg" />
  
-<div> 
-  <a href="https://instagram.com/lzk001?utm_medium=copy_link/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/T9nNYbS32E" target="_blank"> <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"> </a> 
-  <a href = "mailto:Luizgustavobarros32@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"> </a>
-  </div>
-
+  <br>
  
+ 
+![Contribution](https://activity-graph.herokuapp.com/graph?username=001zk&theme=gotham&hide_border=true&area=true)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=001zk&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
+</p>
 <div>
-  
-![Snake animation](https://github.com/001zk/001zk/blob/output/github-contribution-grid-snake.svg)
-
-
-
+<a href="https://www.instagram.com/001zk/" target="_blank"><img src="https://user-images.githubusercontent.com/101060286/195706189-2246473e-db29-4b52-818d-3369cab7eaa8.png" height="40" widht="45"></a>
+  <a href="https://twitter.com/Luizx001" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40">
+   </a>
+ 
+ </div>
+ 
+ 
  
   
+  <div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{001zk}/count.svg" /></p> 
+<br></div>
   
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+  
+ 
+ ![Snake animation](https://github.com/001zk/001zk/blob/output/github-contribution-grid-snake.svg)
+ 
 </div>
