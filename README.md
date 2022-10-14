@@ -8,8 +8,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+LzK;+or+Luíz+depends+on+your+preference+;I'm+15+years+old;I+from+Brasil,+campos//rj;I+study+programming+at+house;Be+Welcome!+:%22)](https://git.io/typing-svg)
 <div align="center">
   <a href="https://github.com/001zk">
-    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=001zk&count_private=true&include_all_commits=true&show_icons=true&theme=swift&hide_border=false&show_owner=true"/>
-    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=swift&hide_border=false&&layout=compact"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=001zk&count_private=true&include_all_commits=true&show_icons=true&theme=midnight-purple&hide_border=false&show_owner=true"
+    title-color="#f54242"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=midnight-purple&hide_border=false&&layout=compact"/>
   </a>
 </div>
  <div align="center" valign="top"><br>
