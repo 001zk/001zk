@@ -13,6 +13,10 @@
     <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=midnight-purple&hide_border=false&&layout=compact"/>
   </a>
 </div>
+<div> <div align="center" valign="top"><br>
+  <a href="spotify:track:6lYY2HktYKpV1pUamfRlU1"> 
+  <img align="center" alt="thanatos-cdzlt" height="120" width="120" src="https://i.pinimg.com/564x/95/3f/df/953fdfaa8c2ec7c5c17be604b0939543.jpg"> </a>
+  </div>
  <div align="center" valign="top"><br>
   <img align="center" alt="Ruby" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
   <img align="center" alt="discord-js" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-plain.svg" />
