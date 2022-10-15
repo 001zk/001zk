@@ -14,8 +14,7 @@
   </a>
 </div>
 <div> <div align="center" valign="top"><br>
-  <a href="spotify:track:6lYY2HktYKpV1pUamfRlU1"> 
-  <img align="center" alt="thanatos-cdzlt" height="120" width="120" src="https://i.pinimg.com/564x/95/3f/df/953fdfaa8c2ec7c5c17be604b0939543.jpg"> </a>
+  <a href="https://open.spotify.com/track/6lYY2HktYKpV1pUamfRlU1?si=ad202056a1024ad5" target="_blank"><img src="https://i.pinimg.com/564x/95/3f/df/953fdfaa8c2ec7c5c17be604b0939543.jpg" height="120" widht="120"></a>
   </div>
  <div align="center" valign="top"><br>
   <img align="center" alt="Ruby" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
