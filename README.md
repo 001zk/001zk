@@ -1,8 +1,8 @@
 
 ### Olá! eu sou Lzk ou sou Luíz voce escolhe :)
- 📚Cursando algumas coisas :)
-💻Desenvolvedor Froent-end
-📩contate-me nas minhas redes sociais que estao na bio e no readme
+<div> 📚Cursando algumas coisas :) </div>
+<div>💻Desenvolvedor Froent-end </div>
+<div>📩contate-me nas minhas redes sociais que estao na bio e no readme  </div>
  
  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+LzK;+or+Luíz+depends+on+your+preference+;I'm+15+years+old;I+from+Brasil,+campos//rj;I+study+programming+at+house;Be+Welcome!+:%22)](https://git.io/typing-svg)
