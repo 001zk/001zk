@@ -1,5 +1,5 @@
 
-### Olá! eu sou Lzk ou  eu sou Luíz voce escolhe :)
+### Olá! eu sou Lzk ou sou Luíz voce escolhe :)
  📚Cursando algumas coisas :)
 💻Desenvolvedor Froent-end
 📩contate-me nas minhas redes sociais que estao na bio e no readme
