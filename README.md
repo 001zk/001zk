@@ -16,21 +16,23 @@
 <div> <div align="center" valign="top"><br>
   <a href="https://youtu.be/6Q0z7lVMmYc" target="_blank"><img src="https://i.pinimg.com/564x/95/3f/df/953fdfaa8c2ec7c5c17be604b0939543.jpg" height="120" widht="120"></a>
   </div>
- <div align="center" valign="top"><br>
-  
-  <img align="center" alt="discord-js" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-plain.svg" />
+ <div align="center" valign="top"><br> 
+  <h1> skills </h1> 
+   <img align="center" width="40" color="#8205b3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" />
+  <div> </div>
+  <img align="center" alt="Js" src="https://img.shields.io/badge/javascript-239120?style=for-the-badge&logo=javascript&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="HTML"  src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="CSS"  src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="python"  src="https://img.shields.io/badge/python-0078D4?style=for-the-badge&logo=python&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="lua"  src="https://img.shields.io/badge/lua-0078D4?style=for-the-badge&logo=Lua&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="vscode"  src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white&color=202020&labelColor=8205b3">
 
-  <img align="center" alt="Js" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="python" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg">
-  <img align="center" alt="lua" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-plain-wordmark.svg" />
+  <div> </div>
  
   <br>
  
- 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=001zk&theme=high-contrast)](https://github.com/001zk/github-readme-activity-graph) <p>  <img src="https://github-profile-trophy.vercel.app/?username=001zk&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
-</p>
+   </p> 
 <div>
 <a href="https://www.instagram.com/lzk001/" target="_blank"><img src="https://user-images.githubusercontent.com/101060286/195706189-2246473e-db29-4b52-818d-3369cab7eaa8.png" height="40" widht="45"></a>
   <a href="https://twitter.com/Luizx001" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40">
@@ -42,7 +44,7 @@
  
   
   <div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
+<br><p align="centre"><b>visitantes :)</b></p>  
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{001zk}/count.svg"/></p> 
 <br></div>
   
