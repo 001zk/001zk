@@ -26,6 +26,7 @@
   <img align="center" alt="python"  src="https://img.shields.io/badge/python-0078D4?style=for-the-badge&logo=python&logoColor=white&color=202020&labelColor=8205b3">
   <img align="center" alt="lua"  src="https://img.shields.io/badge/lua-0078D4?style=for-the-badge&logo=Lua&logoColor=white&color=202020&labelColor=8205b3">
   <img align="center" alt="vscode"  src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white&color=202020&labelColor=8205b3">
+  <img align="center" alt="ts" src="https://img.shields.io/badge/typescript-239120?style=for-the-badge&logo=typescript&logoColor=white&color=202020&labelColor=8205b3">
 
   <div> </div>
  
