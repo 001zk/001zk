@@ -18,10 +18,11 @@
   </div>
  <div align="center" valign="top"><br> 
   <h1> skills </h1> 
-   <img align="center" width="50" color="#8205b3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" />
+   <img align="center" width="40" color="#8205b3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" />
+  <div> </div>
+  <img align="center" alt="nodejs" src="https://img.shields.io/badge/node.js-239120?style=for-the-badge&logo=node.js&logoColor=white&color=202020&labelColor=8205b3">
   <div> </div>
   <img align="center" alt="Js" src="https://img.shields.io/badge/javascript-239120?style=for-the-badge&logo=javascript&logoColor=white&color=202020&labelColor=8205b3">
-  <img align="center" alt="nodejs" src="https://img.shields.io/badge/node.js-239120?style=for-the-badge&logo=node.js&logoColor=white&color=202020&labelColor=8205b3">
   <img align="center" alt="HTML"  src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white&color=202020&labelColor=8205b3">
   <img align="center" alt="CSS"  src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=202020&labelColor=8205b3">
   <img align="center" alt="python"  src="https://img.shields.io/badge/python-0078D4?style=for-the-badge&logo=python&logoColor=white&color=202020&labelColor=8205b3">
