@@ -1,7 +1,7 @@
 
 ### Olá! eu sou Lzk ou sou Luíz voce escolhe :)
 <div> 📚Cursando algumas coisas :) </div>
-<div>💻Desenvolvedor Froent-end </div>
+<div>💻Desenvolvedor Front-end </div>
 <div>📩contate-me nas minhas redes sociais que estao na bio e no readme  </div>
  
  
