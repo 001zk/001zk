@@ -1,3 +1,10 @@
+<style> .body { color: red;
+ 
+}
+
+
+</style>
+
 <body>
 ### Olá! eu sou Lzk ou sou Luíz voce escolhe :)
 <div> 📚Cursando Tecnico de Informática :) </div>
