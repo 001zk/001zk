@@ -1,4 +1,4 @@
-
+<body>
 ### Olá! eu sou Lzk ou sou Luíz voce escolhe :)
 <div> 📚Cursando Tecnico de Informática :) </div>
 <div>💻Desenvolvedor Front-end </div>
@@ -46,7 +46,7 @@
  
  
   
-  <div align="center">
+  <div align="center">  </body>
    <h3> visitantes :) </h3>
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{001zk}/count.svg"/></p> 
 <br></div>
