@@ -7,7 +7,7 @@
 <div>📩contate-me nas minhas redes sociais que estao na bio e no readme  </div>
  
  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=640abf&size=35&center=true&vCenter=true&width=1000&lines=hi,+my+name+is+LzK;+or+Luíz+depends+on+your+preference+;I'm+17+years+old;I+from+Brazil,+campos//rj;I+study+programming+at+house;Be+Welcome!+:%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=640abf&size=35&center=true&vCenter=true&width=1000&lines=hi,+my+name+is+LzK;+or+Luíz+depends+on+your+preference+;I'm+18+years+old;I+from+Brazil,+campos//rj;I+study+programming+at+house;Be+Welcome!+:%22)](https://git.io/typing-svg)
 <div align="center">
   <a href="https://github.com/001zk">
     <img height="150em" src="https://github-readme-stats.vercel.app/api?username=001zk&count_private=true&include_all_commits=true&show_icons=true&theme=midnight-purple&hide_border=false&show_owner=true"
