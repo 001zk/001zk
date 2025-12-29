@@ -33,13 +33,13 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 ---
 
 ### 📊 Estatísticas no GitHub
-
 <div align="center">
-  [![Luíz's GitHub stats](https://github-readme-stats.vercel.app/api?username=001zk&show_icons=true&theme=midnight-purple)](https://github.com/001zk/github-readme-stats)
-  <br>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=midnight-purple&layout=compact" />
-</div>
+  
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=001zk&theme=dark&hide_border=true&show_icons=true)
+  
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=dark&hide_border=true&layout=compact)
 
+</div>
 ---
 
 ### 📫 Conecte-se comigo
