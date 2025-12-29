@@ -35,9 +35,6 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 ### 📊 Estatísticas no GitHub
 <div align="center">
   
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=001zk&theme=dark&hide_border=true&show_icons=true)
-  
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=dark&hide_border=true&layout=compact)
 
 </div>
 ---
@@ -50,6 +47,4 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 
 ---
 
-<div align="center">
-  <p><em>Visitantes:</em> <img src="https://profile-counter.glitch.me/{001zk}/count.svg" alt="Views" /></p>
-</div>
+
