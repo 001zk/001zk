@@ -39,7 +39,6 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
   <br>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=001zk&theme=midnight-purple&layout=compact" />
 </div>
----
 
 ---
 
