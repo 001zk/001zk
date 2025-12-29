@@ -47,12 +47,11 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 <div align="left">
   <a href="https://www.instagram.com/lzk001/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="https://twitter.com/Luizx001" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
-  <a href="https://youtu.be/6Q0z7lVMmYc" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/luiz-gustavo-de-barros/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
 ---
 
 <div align="center">
-  <img width="100%" src="https://github.com/001zk/001zk/blob/output/github-contribution-grid-snake.svg" />
   <p><em>Visitantes:</em> <img src="https://profile-counter.glitch.me/{001zk}/count.svg" alt="Views" /></p>
 </div>
