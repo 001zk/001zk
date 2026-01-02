@@ -10,7 +10,7 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 
 - 🛠 Atualmente focado em: **Monitoramento de Redes e Infraestrutura**.
 - 💻 Desenvolvedor Front-end com experiência em **JavaScript e Python** para automação.
-- 📍 Baseado em: Campos dos Goytacazes, RJ.
+- 📍 Campos dos Goytacazes, RJ.
 
 ---
 
