@@ -34,7 +34,7 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 
 ### 📊 Estatísticas no GitHub
 <div align="center">
-  
+   <img align="center" alt="perfil status" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=001zk&theme=radical"/>
 
 </div>
 ---
