@@ -45,6 +45,8 @@ Sou Técnico em Informática formado, com 19 anos, atuando como **Analista de NO
 <a href="https://www.linkedin.com/in/luiz-gustavo-de-barros/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
----
+<div align="center">
+  <p align="center"><img align="center" src="https://komarev.com/ghpvc/?username=001zk&style=flat-square&color=755b25" /></p> 
+</div>
 
 
