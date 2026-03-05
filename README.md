@@ -65,18 +65,14 @@
     <circle cx="850" cy="160" r="1.5" fill="#f59e0b"/>
   </g>
 
- 
   <circle cx="42" cy="44" r="4" fill="#22d3a0" filter="url(#glow)"/>
   <text x="54" y="49" font-family="monospace" font-size="11" fill="#22d3a0" letter-spacing="2">ONLINE · NOC ATIVO</text>
 
- 
   <text x="40" y="110" font-family="'Arial Black', sans-serif" font-size="52" font-weight="900" fill="url(#nameglow)" letter-spacing="-2">LUIZ</text>
   <text x="40" y="162" font-family="'Arial Black', sans-serif" font-size="52" font-weight="900" fill="#f59e0b" letter-spacing="-2" filter="url(#softglow)">GUSTAVO.</text>
 
- 
   <text x="340" y="110" font-family="monospace" font-size="13" fill="#8fa8be" letter-spacing="1">Analista de NOC &amp; Infraestrutura</text>
   <text x="340" y="132" font-family="monospace" font-size="13" fill="#8fa8be" letter-spacing="1">de Redes · Arroba Banda Larga</text>
-
 
   <rect x="340" y="148" width="72"  height="20" rx="3" fill="#1c2b3a" stroke="#263a4d" stroke-width="1"/>
   <text x="352" y="162" font-family="monospace" font-size="10" fill="#f59e0b">GPON/EPON</text>
@@ -90,10 +86,8 @@
   <rect x="548" y="148" width="56"  height="20" rx="3" fill="#1c2b3a" stroke="#263a4d" stroke-width="1"/>
   <text x="557" y="162" font-family="monospace" font-size="10" fill="#f59e0b">MikroTik</text>
 
-  <!-- Bottom line -->
   <rect x="0" y="192" width="900" height="1" fill="url(#line)"/>
 
-  <!-- Bottom info -->
   <text x="40"  y="184" font-family="monospace" font-size="10" fill="#4a6070" letter-spacing="1">$ ping luizgustavobarros32@gmail.com</text>
   <text x="750" y="184" font-family="monospace" font-size="10" fill="#4a6070">Campos dos Goytacazes, RJ</text>
 </svg>
@@ -169,12 +163,12 @@ Atuo na operação de redes ópticas **GPON/EPON**, monitoramento de infraestrut
 
 ---
 
-## Certificações
+## Formação Complementar
 
 <div align="center">
 
-| | Certificado | Área |
-|-|-------------|------|
+| | Curso | Área |
+|-|-------|------|
 | 🔒 | Cibersegurança: Anatomia Clássica de um Ciberataque | Segurança |
 | 🌐 | Redes, Lógica e Estruturação | Redes |
 | 🌐 | Internet das Coisas — IoT | Redes |
