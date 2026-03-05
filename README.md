@@ -26,12 +26,16 @@
     </filter>
   </defs>
 
+  <!-- Background -->
   <rect width="900" height="200" fill="url(#bg)" rx="12"/>
 
+  <!-- Border -->
   <rect width="900" height="200" fill="none" stroke="#1c2b3a" stroke-width="1" rx="12"/>
 
+  <!-- Amber accent left bar -->
   <rect x="0" y="0" width="3" height="200" fill="#f59e0b" rx="2"/>
 
+  <!-- Decorative grid dots -->
   <g opacity="0.06">
     <circle cx="700" cy="40"  r="1.5" fill="#f59e0b"/>
     <circle cx="730" cy="40"  r="1.5" fill="#f59e0b"/>
@@ -65,15 +69,19 @@
     <circle cx="850" cy="160" r="1.5" fill="#f59e0b"/>
   </g>
 
+  <!-- Status indicator -->
   <circle cx="42" cy="44" r="4" fill="#22d3a0" filter="url(#glow)"/>
   <text x="54" y="49" font-family="monospace" font-size="11" fill="#22d3a0" letter-spacing="2">ONLINE · NOC ATIVO</text>
 
+  <!-- Main name -->
   <text x="40" y="110" font-family="'Arial Black', sans-serif" font-size="52" font-weight="900" fill="url(#nameglow)" letter-spacing="-2">LUIZ</text>
   <text x="40" y="162" font-family="'Arial Black', sans-serif" font-size="52" font-weight="900" fill="#f59e0b" letter-spacing="-2" filter="url(#softglow)">GUSTAVO.</text>
 
+  <!-- Role text -->
   <text x="340" y="110" font-family="monospace" font-size="13" fill="#8fa8be" letter-spacing="1">Analista de NOC &amp; Infraestrutura</text>
   <text x="340" y="132" font-family="monospace" font-size="13" fill="#8fa8be" letter-spacing="1">de Redes · Arroba Banda Larga</text>
 
+  <!-- Tags -->
   <rect x="340" y="148" width="72"  height="20" rx="3" fill="#1c2b3a" stroke="#263a4d" stroke-width="1"/>
   <text x="352" y="162" font-family="monospace" font-size="10" fill="#f59e0b">GPON/EPON</text>
 
@@ -86,11 +94,26 @@
   <rect x="548" y="148" width="56"  height="20" rx="3" fill="#1c2b3a" stroke="#263a4d" stroke-width="1"/>
   <text x="557" y="162" font-family="monospace" font-size="10" fill="#f59e0b">MikroTik</text>
 
+  <!-- Bottom line -->
   <rect x="0" y="192" width="900" height="1" fill="url(#line)"/>
 
+  <!-- Bottom info -->
   <text x="40"  y="184" font-family="monospace" font-size="10" fill="#4a6070" letter-spacing="1">$ ping luizgustavobarros32@gmail.com</text>
   <text x="750" y="184" font-family="monospace" font-size="10" fill="#4a6070">Campos dos Goytacazes, RJ</text>
 </svg>
+
+</div>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-gustavo-de-barros/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/lzk001/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:luizgustavobarros32@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portfólio-f59e0b?style=flat-square&logo=vercel&logoColor=black)](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
+
+![Status](https://img.shields.io/badge/Status-Disponível-22d3a0?style=flat-square)
+![Localização](https://img.shields.io/badge/Localização-Campos%20dos%20Goytacazes%2C%20RJ-1c2b3a?style=flat-square)
+![Aberto a](https://img.shields.io/badge/Aberto%20a-NOC%20·%20Redes%20·%20Automação%20·%20Projetos-f59e0b?style=flat-square)
 
 </div>
 
@@ -107,15 +130,20 @@
 ## `whoami`
 
 ```yaml
-nome     : Luiz Gustavo de Barros
-cargo    : Analista de NOC & TI Interno
-empresa  : Arroba Banda Larga
-local    : Campos dos Goytacazes, RJ — Brasil
-foco     : GPON/EPON · VPN · Automação · Troubleshooting L2/L3
-formação : Técnico em Informática — Estácio de Sá
+nome      : Luiz Gustavo de Barros
+cargo     : Analista de NOC & TI Interno
+empresa   : Arroba Banda Larga
+local     : Campos dos Goytacazes, RJ — Brasil
+foco      : GPON/EPON · VPN · Automação · Troubleshooting L2/L3
+automação : Python · Google Apps Script · Node.js
+portfólio : https://portfolio-luizs-projects-9a2b01d1.vercel.app/
+formação  : Técnico em Informática — Estácio de Sá
+aberto a  : NOC · Redes · Infraestrutura · Automação · Projetos
 ```
 
-Atuo na operação de redes ópticas **GPON/EPON**, monitoramento de infraestrutura, provisionamento de ONU/ONT, configuração de VPNs e troubleshooting avançado. Complementarmente, desenvolvo scripts de automação com **Python** e **Google Apps Script** — integrando Sheets, Forms e APIs internas para eliminar trabalho manual em operações do dia a dia.
+Atuo na operação de redes ópticas **GPON/EPON**, monitoramento de infraestrutura, provisionamento de ONU/ONT, configuração de VPNs e troubleshooting avançado de camadas 2 e 3. Complementarmente, desenvolvo scripts de automação com **Python** e **Google Apps Script** — integrando Sheets, Forms e APIs internas para eliminar trabalho manual em processos operacionais. Tenho interesse em colaborar com projetos de automação, ferramentas internas e webapps leves.
+
+🔗 **[Ver portfólio completo →](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)**
 
 ---
 
@@ -202,9 +230,12 @@ Atuo na operação de redes ópticas **GPON/EPON**, monitoramento de infraestrut
 
 ## Contato
 
+Aberto a oportunidades em **redes, NOC e infraestrutura**, colaborações em **projetos de automação** e desenvolvimento de soluções com **Google Apps Script** — webapps internas, integrações com Sheets/Forms e scripts de operação.
+
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luiz%20Gustavo%20de%20Barros-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-gustavo-de-barros/)
+[![Portfólio](https://img.shields.io/badge/Portfólio-Ver%20agora-f59e0b?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-@lzk001-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lzk001/)
 [![Email](https://img.shields.io/badge/Email-luizgustavobarros32@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luizgustavobarros32@gmail.com)
 
