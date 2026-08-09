@@ -82,3 +82,26 @@ GitHub: [@001zk](https://github.com/001zk) · [@Luiz-alt001](https://github.com/
 ---
 
 <sub>SYSTEM REV. 2026.08 · BUILD 001ZK — gerado a partir de <a href="data/profile.json">data/profile.json</a> via <a href="scripts/generate_system.py">scripts/generate_system.py</a>. Nenhuma métrica é inventada: campos sem dado real exibem <code>N/A</code>.</sub>
+
+---
+
+<details>
+<summary><sub>Setup do GitHub Pages (OPEN SYSTEM)</sub></summary>
+
+O `index.html` já está pronto na raiz do repositório, mas o GitHub Pages
+precisa ser habilitado manualmente uma vez:
+
+1. No repositório, vá em **Settings → Pages**
+2. Em **Source**, selecione **Deploy from a branch**
+3. Branch: **main**, pasta: **/ (root)** → **Save**
+4. Aguarde 1–2 minutos e acesse `https://001zk.github.io`
+
+Sempre que `data/profile.json`, `data/projects.json` ou `data/links.json`
+mudarem, rode (ou deixe o Actions rodar):
+
+```bash
+python3 scripts/generate_system.py
+python3 scripts/generate_web.py
+```
+
+</details>
