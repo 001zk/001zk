@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1200 880" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle svgDesc" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif">
+<title id="svgTitle">001ZK // LIVING SYSTEM</title>
+<desc id="svgDesc">Arquitetura de sistema interconectando rede, infraestrutura, automação, engenharia de software e pesquisa, representando a atuação de Luiz Gustavo (001zk).</desc>
+<defs>
+<radialGradient id="coreGlow-dark" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#4C8DFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#4C8DFF" stop-opacity="0"/></radialGradient>
+<pattern id="grid-dark" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1F1C" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="880" fill="#0B0C0B"/>
+<rect width="1200" height="880" fill="url(#grid-dark)"/>
+<path id="path-dark-0" d="M 330.0,400.0 Q 552.2,366.8 640.0,160.0" fill="none" stroke="#2B2C28" stroke-width="1.4"/>
+<circle cx="485.0" cy="274.4" r="3" fill="#D8D8D2" opacity="0.55"/>
+<circle r="3.2" fill="#4C8DFF"><animateMotion dur="6s" repeatCount="indefinite" path="M 330.0,400.0 Q 552.2,366.8 640.0,160.0"/><animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/></circle>
+<path id="path-dark-1" d="M 330.0,400.0 Q 616.4,196.4 960.0,270.0" fill="none" stroke="#2B2C28" stroke-width="1.4"/>
+<circle cx="645.0" cy="339.4" r="3" fill="#D8D8D2" opacity="0.55"/>
+<circle r="3.2" fill="#4C8DFF"><animateMotion dur="7s" repeatCount="indefinite" path="M 330.0,400.0 Q 616.4,196.4 960.0,270.0"/><animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/></circle>
+<path id="path-dark-2" d="M 330.0,400.0 Q 408.6,529.4 560.0,530.0" fill="none" stroke="#2B2C28" stroke-width="1.4"/>
+<circle cx="445.0" cy="459.4" r="3" fill="#D8D8D2" opacity="0.55"/>
+<circle r="3.2" fill="#4C8DFF"><animateMotion dur="8s" repeatCount="indefinite" path="M 330.0,400.0 Q 408.6,529.4 560.0,530.0"/><animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/></circle>
+<path id="path-dark-3" d="M 330.0,400.0 Q 643.6,339.6 900.0,530.0" fill="none" stroke="#2B2C28" stroke-width="1.4"/>
+<circle cx="615.0" cy="469.4" r="3" fill="#D8D8D2" opacity="0.55"/>
+<circle r="3.2" fill="#4C8DFF"><animateMotion dur="9s" repeatCount="indefinite" path="M 330.0,400.0 Q 643.6,339.6 900.0,530.0"/><animate attributeName="opacity" values="0;1;1;0" dur="9s" repeatCount="indefinite"/></circle>
+<path id="path-dark-4" d="M 330.0,400.0 Q 707.2,617.8 1090.0,410.0" fill="none" stroke="#2B2C28" stroke-width="1.4"/>
+<circle cx="710.0" cy="399.4" r="3" fill="#D8D8D2" opacity="0.55"/>
+<circle r="3.2" fill="#4C8DFF"><animateMotion dur="10s" repeatCount="indefinite" path="M 330.0,400.0 Q 707.2,617.8 1090.0,410.0"/><animate attributeName="opacity" values="0;1;1;0" dur="10s" repeatCount="indefinite"/></circle>
+<circle cx="640" cy="160" r="40" fill="#131412" stroke="#D8D8D2" stroke-width="1.6"/>
+<circle cx="640" cy="160" r="31" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<text x="640" y="156" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="1">NODE/NET</text>
+<text x="640" y="170" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">NETWORK</text>
+<text x="640" y="216" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#4C8DFF" letter-spacing="0.5">● ACTIVE</text>
+<text x="640" y="232" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">GPON</text>
+<text x="640" y="245" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">EPON</text>
+<text x="640" y="258" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">OLT</text>
+<text x="640" y="271" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">ONU</text>
+<circle cx="960" cy="270" r="40" fill="#131412" stroke="#D8D8D2" stroke-width="1.6"/>
+<circle cx="960" cy="270" r="31" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<text x="960" y="266" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="1">NODE/INF</text>
+<text x="960" y="280" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">INFRASTRUCTURE</text>
+<text x="960" y="326" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#4C8DFF" letter-spacing="0.5">● OPERATIONAL</text>
+<text x="960" y="342" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">NOC</text>
+<text x="960" y="355" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">ZABBIX</text>
+<text x="960" y="368" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">PROXMOX</text>
+<text x="960" y="381" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">LINUX</text>
+<circle cx="560" cy="530" r="40" fill="#131412" stroke="#D8D8D2" stroke-width="1.6"/>
+<circle cx="560" cy="530" r="31" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<text x="560" y="526" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="1">NODE/AUT</text>
+<text x="560" y="540" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">AUTOMATION</text>
+<text x="560" y="586" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#4C8DFF" letter-spacing="0.5">● ACTIVE</text>
+<text x="560" y="602" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">PYTHON</text>
+<text x="560" y="615" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">NODE.JS</text>
+<text x="560" y="628" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">GOOGLE APPS SCRIPT</text>
+<text x="560" y="641" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">APIS</text>
+<circle cx="900" cy="530" r="40" fill="#131412" stroke="#D8D8D2" stroke-width="1.6"/>
+<circle cx="900" cy="530" r="31" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<text x="900" y="526" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="1">NODE/SWE</text>
+<text x="900" y="540" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">SOFTWARE</text>
+<text x="900" y="586" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#4C8DFF" letter-spacing="0.5">● ACTIVE</text>
+<text x="900" y="602" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">JAVASCRIPT</text>
+<text x="900" y="615" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">GIT</text>
+<text x="900" y="628" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">GITHUB</text>
+<text x="900" y="641" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">SYSTEM DESIGN</text>
+<circle cx="1090" cy="410" r="36" fill="#131412" stroke="#D8D8D2" stroke-width="1.6"/>
+<circle cx="1090" cy="410" r="27" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<text x="1090" y="406" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="1">NODE/RES</text>
+<text x="1090" y="420" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">RESEARCH</text>
+<text x="1090" y="462" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#4C8DFF" letter-spacing="0.5">◇ GENERATED</text>
+<text x="1090" y="478" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">HARDWARE</text>
+<text x="1090" y="491" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">REUSE</text>
+<text x="1090" y="504" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#A7A79E">SUSTAINABILITY</text>
+<circle cx="330" cy="400" r="117" fill="url(#coreGlow-dark)"/>
+<circle cx="330" cy="400" r="62" fill="#F2F2EC" stroke="#4C8DFF" stroke-width="1.6"/>
+<circle cx="330" cy="400" r="76" fill="none" stroke="#2B2C28" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="330" y="394" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#0B0C0B" letter-spacing="1">001ZK</text>
+<text x="330" y="413" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#0B0C0B" letter-spacing="1" opacity="0.75">SYSTEM CORE</text>
+<text x="60" y="90" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#F2F2EC" letter-spacing="0.5">001ZK</text>
+<text x="60" y="120" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#4C8DFF" letter-spacing="3">LIVING SYSTEM</text>
+<text x="60" y="148" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#A7A79E" letter-spacing="1">SOFTWARE ENGINEERING</text>
+<text x="60" y="164" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#A7A79E" letter-spacing="1">INFRASTRUCTURE</text>
+<text x="60" y="180" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#A7A79E" letter-spacing="1">AUTOMATION</text>
+<text x="60" y="196" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#A7A79E" letter-spacing="1">NETWORK SYSTEMS</text>
+<text x="1160" y="40" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C" letter-spacing="0.5">SYSTEM REV. 2026.08 · BUILD 001ZK</text>
+<text x="1160" y="54" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#63635C">Campos dos Goytacazes, RJ, Brazil</text>
+<rect x="60" y="670" width="1080" height="78" rx="4" fill="#131412" stroke="#2B2C28" stroke-width="1"/>
+<text x="76" y="692" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#4C8DFF" letter-spacing="1">R-01 / RESEARCH NODE — REUSABLE COMPUTING</text>
+<text x="76" y="712" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#F2F2EC">Manual de Montagem de um Computador Reciclável Utilizando Peças </text>
+<text x="76" y="732" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">HARDWARE  ·  REUSE  ·  SUSTAINABILITY</text>
+<line x1="60" y1="792" x2="1140" y2="792" stroke="#2B2C28" stroke-width="1"/>
+<text x="60" y="814" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10" fill="#63635C" letter-spacing="2">SYSTEM TELEMETRY</text>
+<text x="60" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">REPOSITORIES</text>
+<text x="60" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="320" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">FOLLOWERS</text>
+<text x="320" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="580" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">LANGUAGES</text>
+<text x="580" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="840" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">ACTIVITY</text>
+<text x="840" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+</svg>

@@ -1,0 +1,107 @@
+{
+  "identity": {
+    "name": "Luiz Gustavo",
+    "handle": "001zk",
+    "age": 19,
+    "location": "Campos dos Goytacazes, RJ, Brazil"
+  },
+  "system": {
+    "name": "LIVING SYSTEM",
+    "version": "1.0",
+    "revision": "2026.08",
+    "build": "001ZK"
+  },
+  "current_role": {
+    "title": "Analista de Suporte de TI Jr",
+    "company": "Minsait / Indra Company",
+    "state": "OPERATIONAL"
+  },
+  "previous_experience": {
+    "company": "Arroba Banda Larga",
+    "role": "Analista de NOC / TI Interno",
+    "skills": [
+      "GPON",
+      "EPON",
+      "OLT",
+      "ONU",
+      "Zabbix",
+      "IXC",
+      "Proxmox",
+      "VPN",
+      "network troubleshooting",
+      "infrastructure",
+      "corporate IT",
+      "NOC",
+      "N2/N3 support"
+    ]
+  },
+  "education": [
+    "Engenharia de Software — Estácio de Sá",
+    "Técnico em Informática — concluído"
+  ],
+  "research": {
+    "id": "R-01",
+    "codename": "REUSABLE COMPUTING",
+    "title": "Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas",
+    "platform": "Zenodo",
+    "themes": ["HARDWARE", "REUSE", "SUSTAINABILITY"],
+    "doi_url": null
+  },
+  "certifications": [
+    {
+      "id": "C-01",
+      "name": "OCNA WIRELESS",
+      "issuer": "TP-LINK"
+    },
+    {
+      "id": "C-02",
+      "name": "IGNITE BRASIL",
+      "issuer": "WADHWANI FOUNDATION"
+    }
+  ],
+  "stack": [
+    "Python",
+    "Node.js",
+    "JavaScript",
+    "Google Apps Script",
+    "Automation",
+    "Networking",
+    "Infrastructure",
+    "Monitoring",
+    "Linux",
+    "Git",
+    "GitHub"
+  ],
+  "modules": [
+    {
+      "id": "NODE/NET",
+      "name": "NETWORK",
+      "state": "ACTIVE",
+      "items": ["GPON", "EPON", "OLT", "ONU", "VPN"]
+    },
+    {
+      "id": "NODE/INF",
+      "name": "INFRASTRUCTURE",
+      "state": "OPERATIONAL",
+      "items": ["NOC", "ZABBIX", "PROXMOX", "LINUX", "IXC"]
+    },
+    {
+      "id": "NODE/AUT",
+      "name": "AUTOMATION",
+      "state": "ACTIVE",
+      "items": ["PYTHON", "NODE.JS", "GOOGLE APPS SCRIPT", "APIS"]
+    },
+    {
+      "id": "NODE/SWE",
+      "name": "SOFTWARE",
+      "state": "ACTIVE",
+      "items": ["JAVASCRIPT", "GIT", "GITHUB", "SYSTEM DESIGN"]
+    },
+    {
+      "id": "NODE/RES",
+      "name": "RESEARCH",
+      "state": "GENERATED",
+      "items": ["HARDWARE", "REUSE", "SUSTAINABILITY"]
+    }
+  ]
+}

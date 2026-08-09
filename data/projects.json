@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "NOC 360",
+      "description": "Dashboard de observabilidade de NOC construído sobre a API do base44, consolidando estado de rede e infraestrutura em um único painel.",
+      "stack": ["JavaScript", "base44 API"],
+      "status": "ACTIVE",
+      "url": null
+    },
+    {
+      "name": "001ZK // LIVING SYSTEM",
+      "description": "Este repositório. Arquitetura de perfil GitHub gerada proceduralmente a partir de dados estruturados.",
+      "stack": ["Python", "SVG", "GitHub Actions"],
+      "status": "ACTIVE",
+      "url": null
+    }
+  ]
+}
