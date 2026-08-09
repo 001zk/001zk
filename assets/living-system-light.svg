@@ -83,7 +83,7 @@
 <text x="330" y="394" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#F7F7F5" letter-spacing="1">001ZK</text>
 <text x="330" y="413" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#F7F7F5" letter-spacing="1" opacity="0.75">SYSTEM CORE</text>
 <text x="60" y="90" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#171714" letter-spacing="0.5">001ZK</text>
-<text x="60" y="120" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#0B5FFF" letter-spacing="3">LIVING SYSTEM</text>
+<text x="60" y="120" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#0B5FFF" letter-spacing="3">README</text>
 <text x="60" y="148" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">SOFTWARE ENGINEERING</text>
 <text x="60" y="164" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">INFRASTRUCTURE</text>
 <text x="60" y="180" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">AUTOMATION</text>
