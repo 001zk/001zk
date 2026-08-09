@@ -260,7 +260,7 @@ def build_svg(theme_name, profile, projects, telemetry):
     )
     parts.append(
         f'<text x="{hx}" y="{hy+30}" font-family="{FONT_MONO}" font-size="14" '
-        f'fill="{t["accent"]}" letter-spacing="3">LIVING SYSTEM</text>'
+        f'fill="{t["accent"]}" letter-spacing="3">README</text>'
     )
     tagline = ["SOFTWARE ENGINEERING", "INFRASTRUCTURE", "AUTOMATION", "NETWORK SYSTEMS"]
     for i, line in enumerate(tagline):
