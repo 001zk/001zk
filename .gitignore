@@ -1,0 +1,5 @@
+# dados de telemetria gerados em runtime pelo GitHub Actions
+# (não commitar dados obtidos localmente/manualmente sem revisão)
+__pycache__/
+*.pyc
+.DS_Store

@@ -23,12 +23,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 REQUIRED_FILES = [
     "README.md",
+    "index.html",
     "data/profile.json",
     "data/projects.json",
     "data/links.json",
     "assets/living-system-light.svg",
     "assets/living-system-dark.svg",
     "scripts/generate_system.py",
+    "scripts/generate_web.py",
     ".github/workflows/update-system.yml",
 ]
 

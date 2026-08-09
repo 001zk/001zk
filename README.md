@@ -51,7 +51,7 @@ Técnico em Informática — concluído
 ## RESEARCH
 
 **R-01 / RESEARCH NODE — REUSABLE COMPUTING**
-*Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas*
+*[Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas](https://zenodo.org/records/18135901)*
 `HARDWARE` `REUSE` `SUSTAINABILITY` · publicado no Zenodo
 
 ---
@@ -78,6 +78,8 @@ Configurados em [`data/projects.json`](data/projects.json) — atualizados sem t
 ## CONTACT
 
 GitHub: [@001zk](https://github.com/001zk) · [@Luiz-alt001](https://github.com/Luiz-alt001)
+LinkedIn: [Luiz Gustavo de Barros](https://www.linkedin.com/in/luiz-gustavo-de-barros/)
+Portfolio: [portfolio-luizs-projects-9a2b01d1.vercel.app](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
 
 ---
 

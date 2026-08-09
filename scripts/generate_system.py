@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-001ZK // LIVING SYSTEM
+001ZK // README
 generate_system.py
 
 Gera assets/living-system-light.svg e assets/living-system-dark.svg
@@ -127,7 +127,7 @@ def build_svg(theme_name, profile, projects, telemetry):
         f'role="img" aria-labelledby="svgTitle svgDesc" font-family="{FONT_DISPLAY}">'
     )
     parts.append(
-        "<title id=\"svgTitle\">001ZK // LIVING SYSTEM</title>"
+        "<title id=\"svgTitle\">001ZK // README</title>"
     )
     parts.append(
         "<desc id=\"svgDesc\">Arquitetura de sistema interconectando rede, "

@@ -28,5 +28,10 @@ README (estático, funciona sempre)
 
 ## Status
 
-Ainda não implementado. Estrutura reservada conforme a arquitetura
-definida no prompt master do projeto.
+`index.html` já é gerado por [`scripts/generate_web.py`](../scripts/generate_web.py)
+a partir dos mesmos dados do README (`data/profile.json` etc.) — reaproveita
+os SVGs de `assets/`. Para ficar no ar em `001zk.github.io`, falta apenas
+habilitar o Pages nas configurações do repositório (veja o README principal).
+
+O 2D/3D interativo com Three.js/Canvas descrito acima continua não
+implementado — é a evolução futura sobre esta base estática atual.
