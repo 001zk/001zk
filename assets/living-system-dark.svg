@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 880" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle svgDesc" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif">
-<title id="svgTitle">001ZK // LIVING SYSTEM</title>
+<title id="svgTitle">001ZK // README</title>
 <desc id="svgDesc">Arquitetura de sistema interconectando rede, infraestrutura, automação, engenharia de software e pesquisa, representando a atuação de Luiz Gustavo (001zk).</desc>
 <defs>
 <radialGradient id="coreGlow-dark" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#4C8DFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#4C8DFF" stop-opacity="0"/></radialGradient>
@@ -86,11 +86,11 @@
 <line x1="60" y1="792" x2="1140" y2="792" stroke="#2B2C28" stroke-width="1"/>
 <text x="60" y="814" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10" fill="#63635C" letter-spacing="2">SYSTEM TELEMETRY</text>
 <text x="60" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">REPOSITORIES</text>
-<text x="60" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="60" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">16</text>
 <text x="320" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">FOLLOWERS</text>
-<text x="320" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="320" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">26</text>
 <text x="580" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">LANGUAGES</text>
-<text x="580" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="580" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">5</text>
 <text x="840" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#A7A79E" letter-spacing="0.5">ACTIVITY</text>
-<text x="840" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">N/A</text>
+<text x="840" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">ACTIVE</text>
 </svg>
