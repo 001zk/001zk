@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-001ZK // README
+001ZK // LIVING SYSTEM
 generate_system.py
 
 Gera assets/living-system-light.svg e assets/living-system-dark.svg
@@ -127,7 +127,7 @@ def build_svg(theme_name, profile, projects, telemetry):
         f'role="img" aria-labelledby="svgTitle svgDesc" font-family="{FONT_DISPLAY}">'
     )
     parts.append(
-        "<title id=\"svgTitle\">001ZK // README</title>"
+        "<title id=\"svgTitle\">001ZK // LIVING SYSTEM</title>"
     )
     parts.append(
         "<desc id=\"svgDesc\">Arquitetura de sistema interconectando rede, "
@@ -149,6 +149,16 @@ def build_svg(theme_name, profile, projects, telemetry):
         f"</pattern>"
     )
     parts.append("</defs>")
+
+    # Interatividade só tem efeito quando o SVG é embutido inline (site externo).
+    # Como <img> no README, o navegador ignora hover/focus de imagens — inofensivo.
+    parts.append(
+        f"<style>.ls-node{{cursor:pointer}}"
+        f".ls-node circle:first-child{{transition:stroke .15s,filter .15s}}"
+        f".ls-node:hover circle:first-child,.ls-node:focus circle:first-child"
+        f"{{stroke:{t['accent']};filter:drop-shadow(0 0 6px {t['accent']})}}"
+        f".ls-node:focus{{outline:none}}</style>"
+    )
 
     # ---- background ---------------------------------------------------
     parts.append(f'<rect width="{VIEWBOX_W}" height="{VIEWBOX_H}" fill="{t["bg"]}"/>')
@@ -189,6 +199,10 @@ def build_svg(theme_name, profile, projects, telemetry):
         r = m["r"]
         x, y = m["x"], m["y"]
         parts.append(
+            f'<g class="ls-node" data-node-id="{esc(m["id"])}" tabindex="0" '
+            f'role="button" aria-label="{esc(name)} — {esc(state)}">'
+        )
+        parts.append(
             f'<circle cx="{x}" cy="{y}" r="{r}" fill="{t["node_fill"]}" '
             f'stroke="{t["node_stroke"]}" stroke-width="1.6"/>'
         )
@@ -216,6 +230,7 @@ def build_svg(theme_name, profile, projects, telemetry):
                 f'<text x="{x}" y="{item_y + j*13}" text-anchor="middle" '
                 f'font-family="{FONT_MONO}" font-size="8" fill="{t["text_secondary"]}">{esc(it)}</text>'
             )
+        parts.append("</g>")
 
     # ---- core --------------------------------------------------------
     cx, cy, cr = CORE["x"], CORE["y"], CORE["r"]

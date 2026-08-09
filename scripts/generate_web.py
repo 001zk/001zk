@@ -42,7 +42,7 @@ def esc(s):
     )
 
 
-def render(profile, projects, links):
+def render(profile, projects, links, svg_light, svg_dark):
     modules = profile["modules"]
     research = profile["research"]
     certs = profile["certifications"]
@@ -89,6 +89,18 @@ def render(profile, projects, links):
         contact_links.append(f'<a href="{esc(links["portfolio"])}">Portfolio</a>')
     contact_html = " · ".join(contact_links)
 
+    modules_json = json.dumps(
+        {
+            m["id"]: {
+                "name": m["name"],
+                "state": m["state"],
+                "items": m["items"],
+            }
+            for m in modules
+        },
+        ensure_ascii=False,
+    )
+
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -133,16 +145,31 @@ def render(profile, projects, links):
   a:hover {{ text-decoration: underline; }}
   footer {{ margin-top: 64px; font-size: 12px; color: var(--text-dim); font-family: var(--mono); }}
   .back {{ display: inline-block; margin: 24px 0; font-family: var(--mono); font-size: 12px; }}
+
+  .hero {{ position: relative; }}
+  .hero svg {{ width: 100%; height: auto; display: block; }}
+  .hero .theme-dark {{ display: none; }}
+  @media (prefers-color-scheme: dark) {{
+    .hero .theme-light {{ display: none; }}
+    .hero .theme-dark {{ display: block; }}
+  }}
+  #node-panel {{
+    max-width: 920px; margin: -8px auto 0; padding: 14px 20px;
+    border: 1px solid var(--line); border-radius: 4px; background: var(--panel);
+    font-family: var(--mono); font-size: 12px; color: var(--text-dim);
+    transition: border-color .15s;
+  }}
+  #node-panel.active {{ border-color: var(--accent); color: var(--text); }}
+  #node-panel .np-title {{ font-family: var(--display); font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 4px; }}
+  #node-panel .np-id {{ color: var(--accent); }}
 </style>
 </head>
 <body>
   <div class="hero">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/living-system-light.svg">
-      <img alt="001ZK Living System" src="assets/living-system-light.svg">
-    </picture>
+    <div class="theme-light">{svg_light}</div>
+    <div class="theme-dark">{svg_dark}</div>
   </div>
+  <div id="node-panel">Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.</div>
 
   <div class="wrap">
     <a class="back" href="{esc(gh)}">← README no GitHub</a>
@@ -174,9 +201,49 @@ def render(profile, projects, links):
 
     <footer>SYSTEM REV. {esc(profile["system"]["revision"])} · BUILD {esc(profile["system"]["build"])}</footer>
   </div>
+
+  <script>
+    const MODULES = {modules_json};
+    const panel = document.getElementById('node-panel');
+
+    function showNode(id) {{
+      const m = MODULES[id];
+      if (!m) return;
+      panel.classList.add('active');
+      panel.innerHTML =
+        '<div class="np-title"><span class="np-id">' + id + '</span> — ' + m.name + '</div>' +
+        m.state + ' · ' + m.items.join(' · ');
+    }}
+    function resetPanel() {{
+      panel.classList.remove('active');
+      panel.textContent = 'Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.';
+    }}
+
+    document.querySelectorAll('.ls-node').forEach(function (node) {{
+      const id = node.getAttribute('data-node-id');
+      node.addEventListener('mouseenter', function () {{ showNode(id); }});
+      node.addEventListener('focus', function () {{ showNode(id); }});
+      node.addEventListener('click', function () {{ showNode(id); }});
+      node.addEventListener('mouseleave', resetPanel);
+      node.addEventListener('blur', resetPanel);
+      node.addEventListener('keydown', function (e) {{
+        if (e.key === 'Enter' || e.key === ' ') {{ e.preventDefault(); showNode(id); }}
+      }});
+    }});
+  </script>
 </body>
 </html>
 """
+
+
+def load_svg(theme_name):
+    path = os.path.join(ROOT, "assets", f"living-system-{theme_name}.svg")
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+    # remove a declaração XML, se houver — não é válida embutida em HTML
+    if content.startswith("<?xml"):
+        content = content.split("?>", 1)[1]
+    return content.strip()
 
 
 def main():
@@ -187,7 +254,10 @@ def main():
     if profile is None:
         raise SystemExit("data/profile.json não encontrado — abortando geração.")
 
-    html = render(profile, projects, links)
+    svg_light = load_svg("light")
+    svg_dark = load_svg("dark")
+
+    html = render(profile, projects, links, svg_light, svg_dark)
     out_path = os.path.join(ROOT, "index.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)

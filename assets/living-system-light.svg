@@ -5,6 +5,7 @@
 <radialGradient id="coreGlow-light" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#0B5FFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#0B5FFF" stop-opacity="0"/></radialGradient>
 <pattern id="grid-light" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#E7E7E3" stroke-width="1"/></pattern>
 </defs>
+<style>.ls-node{cursor:pointer}.ls-node circle:first-child{transition:stroke .15s,filter .15s}.ls-node:hover circle:first-child,.ls-node:focus circle:first-child{stroke:#0B5FFF;filter:drop-shadow(0 0 6px #0B5FFF)}.ls-node:focus{outline:none}</style>
 <rect width="1200" height="880" fill="#F7F7F5"/>
 <rect width="1200" height="880" fill="url(#grid-light)"/>
 <path id="path-light-0" d="M 330.0,400.0 Q 552.2,366.8 640.0,160.0" fill="none" stroke="#C9C9C4" stroke-width="1.4"/>
@@ -22,6 +23,7 @@
 <path id="path-light-4" d="M 330.0,400.0 Q 707.2,617.8 1090.0,410.0" fill="none" stroke="#C9C9C4" stroke-width="1.4"/>
 <circle cx="710.0" cy="399.4" r="3" fill="#33332E" opacity="0.55"/>
 <circle r="3.2" fill="#0B5FFF"><animateMotion dur="10s" repeatCount="indefinite" path="M 330.0,400.0 Q 707.2,617.8 1090.0,410.0"/><animate attributeName="opacity" values="0;1;1;0" dur="10s" repeatCount="indefinite"/></circle>
+<g class="ls-node" data-node-id="NODE/NET" tabindex="0" role="button" aria-label="NETWORK — ACTIVE">
 <circle cx="640" cy="160" r="40" fill="#FFFFFF" stroke="#33332E" stroke-width="1.6"/>
 <circle cx="640" cy="160" r="31" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <text x="640" y="156" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="1">NODE/NET</text>
@@ -31,6 +33,8 @@
 <text x="640" y="245" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">EPON</text>
 <text x="640" y="258" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">OLT</text>
 <text x="640" y="271" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">ONU</text>
+</g>
+<g class="ls-node" data-node-id="NODE/INF" tabindex="0" role="button" aria-label="INFRASTRUCTURE — OPERATIONAL">
 <circle cx="960" cy="270" r="40" fill="#FFFFFF" stroke="#33332E" stroke-width="1.6"/>
 <circle cx="960" cy="270" r="31" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <text x="960" y="266" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="1">NODE/INF</text>
@@ -40,6 +44,8 @@
 <text x="960" y="355" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">ZABBIX</text>
 <text x="960" y="368" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">PROXMOX</text>
 <text x="960" y="381" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">LINUX</text>
+</g>
+<g class="ls-node" data-node-id="NODE/AUT" tabindex="0" role="button" aria-label="AUTOMATION — ACTIVE">
 <circle cx="560" cy="530" r="40" fill="#FFFFFF" stroke="#33332E" stroke-width="1.6"/>
 <circle cx="560" cy="530" r="31" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <text x="560" y="526" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="1">NODE/AUT</text>
@@ -49,6 +55,8 @@
 <text x="560" y="615" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">NODE.JS</text>
 <text x="560" y="628" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">GOOGLE APPS SCRIPT</text>
 <text x="560" y="641" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">APIS</text>
+</g>
+<g class="ls-node" data-node-id="NODE/SWE" tabindex="0" role="button" aria-label="SOFTWARE — ACTIVE">
 <circle cx="900" cy="530" r="40" fill="#FFFFFF" stroke="#33332E" stroke-width="1.6"/>
 <circle cx="900" cy="530" r="31" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <text x="900" y="526" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="1">NODE/SWE</text>
@@ -58,6 +66,8 @@
 <text x="900" y="615" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">GIT</text>
 <text x="900" y="628" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">GITHUB</text>
 <text x="900" y="641" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">SYSTEM DESIGN</text>
+</g>
+<g class="ls-node" data-node-id="NODE/RES" tabindex="0" role="button" aria-label="RESEARCH — GENERATED">
 <circle cx="1090" cy="410" r="36" fill="#FFFFFF" stroke="#33332E" stroke-width="1.6"/>
 <circle cx="1090" cy="410" r="27" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <text x="1090" y="406" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="1">NODE/RES</text>
@@ -66,6 +76,7 @@
 <text x="1090" y="478" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">HARDWARE</text>
 <text x="1090" y="491" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">REUSE</text>
 <text x="1090" y="504" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8" fill="#5B5B55">SUSTAINABILITY</text>
+</g>
 <circle cx="330" cy="400" r="117" fill="url(#coreGlow-light)"/>
 <circle cx="330" cy="400" r="62" fill="#171714" stroke="#0B5FFF" stroke-width="1.6"/>
 <circle cx="330" cy="400" r="76" fill="none" stroke="#C9C9C4" stroke-width="1" stroke-dasharray="2 4"/>
