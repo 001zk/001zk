@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/living-system-light.svg">
-  <img alt="001ZK Living System — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
+  <img alt="001ZK — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
 </picture>
 
 <div align="center">
