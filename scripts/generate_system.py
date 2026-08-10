@@ -345,10 +345,11 @@ PANEL_H = 220
 
 
 def panel_shell(theme_name, title, t):
+    slug = title.lower().replace(" ", "-")
     parts = [
         f'<svg viewBox="0 0 {PANEL_W} {PANEL_H}" xmlns="http://www.w3.org/2000/svg" '
-        f'role="img" aria-labelledby="pTitle-{theme_name}-{title}" font-family="{FONT_DISPLAY}">',
-        f'<title id="pTitle-{theme_name}-{title}">{esc(title)}</title>',
+        f'role="img" aria-labelledby="pTitle-{theme_name}-{slug}" font-family="{FONT_DISPLAY}">',
+        f'<title id="pTitle-{theme_name}-{slug}">{esc(title)}</title>',
         f'<rect width="{PANEL_W}" height="{PANEL_H}" fill="{t["bg"]}"/>',
         f'<text x="24" y="34" font-family="{FONT_MONO}" font-size="11" '
         f'fill="{t["text_dim"]}" letter-spacing="2">{esc(title)}</text>',

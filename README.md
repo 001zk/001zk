@@ -8,15 +8,15 @@
 <tr>
 <td width="33%"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/panel-languages-dark.svg">
-  <img alt="Distribuição de linguagens" src="assets/panel-languages-light.svg">
+  <img alt="Distribuição de linguagens" src="assets/panel-languages-light.svg" width="100%">
 </picture></td>
 <td width="33%"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/panel-activity-dark.svg">
-  <img alt="Atividade recente" src="assets/panel-activity-light.svg">
+  <img alt="Atividade recente" src="assets/panel-activity-light.svg" width="100%">
 </picture></td>
 <td width="33%"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/panel-streak-dark.svg">
-  <img alt="Streak de contribuição" src="assets/panel-streak-light.svg">
+  <img alt="Streak de contribuição" src="assets/panel-streak-light.svg" width="100%">
 </picture></td>
 </tr>
 </table>
@@ -123,4 +123,4 @@ python3 scripts/generate_system.py
 python3 scripts/generate_web.py
 ```
 
-</details>s
+</details>
