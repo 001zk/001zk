@@ -33,7 +33,10 @@ jobs:
       - name: Fetch telemetry (GitHub API, dados públicos)
         env:
           GITHUB_HANDLE: 001zk
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN padrão não tem acesso ao campo contributionsCollection
+          # (GraphQL) — usa um PAT com escopo read:user salvo em Settings > Secrets.
+          # Se TELEMETRY_TOKEN não existir, cai no GITHUB_TOKEN padrão (streak fica N/A).
+          GITHUB_TOKEN: ${{ secrets.TELEMETRY_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/fetch_telemetry.py
 
       - name: Generate SVG assets
