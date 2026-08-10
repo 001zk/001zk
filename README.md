@@ -1,12 +1,29 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/living-system-light.svg">
-  <img alt="001ZK — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
+  <img alt="001ZK Living System — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
 </picture>
+
+<table>
+<tr>
+<td width="33%"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-languages-dark.svg">
+  <img alt="Distribuição de linguagens" src="assets/panel-languages-light.svg">
+</picture></td>
+<td width="33%"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-activity-dark.svg">
+  <img alt="Atividade recente" src="assets/panel-activity-light.svg">
+</picture></td>
+<td width="33%"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-streak-dark.svg">
+  <img alt="Streak de contribuição" src="assets/panel-streak-light.svg">
+</picture></td>
+</tr>
+</table>
 
 <div align="center">
 
-**[ OPEN SYSTEM ↗ ](https://001zk.github.io/001zk/)**
+**[ OPEN SYSTEM ↗ ](https://001zk.github.io)**
 
 </div>
 
@@ -106,4 +123,4 @@ python3 scripts/generate_system.py
 python3 scripts/generate_web.py
 ```
 
-</details>
+</details>s
