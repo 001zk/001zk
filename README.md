@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**[ OPEN SYSTEM ↗ ](https://001zk.github.io)**
+**[ OPEN SYSTEM ↗ ](https://001zk.github.io/001zk/)**
 
 </div>
 
