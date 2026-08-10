@@ -260,7 +260,7 @@ def build_svg(theme_name, profile, projects, telemetry):
     )
     parts.append(
         f'<text x="{hx}" y="{hy+30}" font-family="{FONT_MONO}" font-size="14" '
-        f'fill="{t["accent"]}" letter-spacing="3">LIVING SYSTEM</text>'
+        f'fill="{t["accent"]}" letter-spacing="3">README</text>'
     )
     tagline = ["SOFTWARE ENGINEERING", "INFRASTRUCTURE", "AUTOMATION", "NETWORK SYSTEMS"]
     for i, line in enumerate(tagline):
@@ -334,6 +334,137 @@ def build_svg(theme_name, profile, projects, telemetry):
     return "\n".join(parts)
 
 
+# ---------------------------------------------------------------------------
+# Painéis compactos adicionais — mesma linguagem visual, dados reais via
+# data/telemetry.json (fetch_telemetry.py). Sem dado real = "N/A", nunca
+# um valor inventado.
+# ---------------------------------------------------------------------------
+
+PANEL_W = 560
+PANEL_H = 220
+
+
+def panel_shell(theme_name, title, t):
+    parts = [
+        f'<svg viewBox="0 0 {PANEL_W} {PANEL_H}" xmlns="http://www.w3.org/2000/svg" '
+        f'role="img" aria-labelledby="pTitle-{theme_name}-{title}" font-family="{FONT_DISPLAY}">',
+        f'<title id="pTitle-{theme_name}-{title}">{esc(title)}</title>',
+        f'<rect width="{PANEL_W}" height="{PANEL_H}" fill="{t["bg"]}"/>',
+        f'<text x="24" y="34" font-family="{FONT_MONO}" font-size="11" '
+        f'fill="{t["text_dim"]}" letter-spacing="2">{esc(title)}</text>',
+        f'<line x1="24" y1="46" x2="{PANEL_W-24}" y2="46" stroke="{t["line"]}" stroke-width="1"/>',
+    ]
+    return parts
+
+
+def build_panel_languages(theme_name, telemetry):
+    t = THEMES[theme_name]
+    parts = panel_shell(theme_name, "LANGUAGE DISTRIBUTION", t)
+    data = telemetry.get("language_breakdown")
+
+    if not data:
+        parts.append(
+            f'<text x="24" y="100" font-family="{FONT_MONO}" font-size="12" '
+            f'fill="{t["text_dim"]}">N/A</text>'
+        )
+    else:
+        bar_x = 140
+        bar_w = PANEL_W - bar_x - 24
+        row_h = 30
+        y0 = 68
+        for i, lang in enumerate(data):
+            y = y0 + i * row_h
+            pct = lang["percent"]
+            parts.append(
+                f'<text x="24" y="{y+11}" font-family="{FONT_MONO}" font-size="10.5" '
+                f'fill="{t["text_primary"]}">{esc(lang["name"])}</text>'
+            )
+            parts.append(
+                f'<rect x="{bar_x}" y="{y}" width="{bar_w}" height="10" rx="2" '
+                f'fill="none" stroke="{t["line"]}" stroke-width="1"/>'
+            )
+            parts.append(
+                f'<rect x="{bar_x}" y="{y}" width="{bar_w*pct/100:.1f}" height="10" rx="2" '
+                f'fill="{t["accent"]}"/>'
+            )
+            parts.append(
+                f'<text x="{PANEL_W-24}" y="{y+9}" text-anchor="end" font-family="{FONT_MONO}" '
+                f'font-size="9.5" fill="{t["text_dim"]}">{pct}%</text>'
+            )
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def build_panel_activity(theme_name, telemetry):
+    t = THEMES[theme_name]
+    parts = panel_shell(theme_name, "RECENT ACTIVITY", t)
+    data = telemetry.get("recent_activity")
+
+    if not data:
+        parts.append(
+            f'<text x="24" y="100" font-family="{FONT_MONO}" font-size="12" '
+            f'fill="{t["text_dim"]}">N/A</text>'
+        )
+    else:
+        row_h = 30
+        y0 = 70
+        for i, repo in enumerate(data):
+            y = y0 + i * row_h
+            days = repo["days_ago"]
+            when = "today" if days == 0 else (f"{days}d ago" if days < 30 else f"{days//30}mo ago")
+            parts.append(
+                f'<circle cx="30" cy="{y-4}" r="3" fill="{t["accent"]}"/>'
+            )
+            parts.append(
+                f'<text x="44" y="{y}" font-family="{FONT_MONO}" font-size="10.5" '
+                f'fill="{t["text_primary"]}">{esc(repo["name"])}</text>'
+            )
+            lang = repo.get("language") or ""
+            parts.append(
+                f'<text x="{PANEL_W-24}" y="{y}" text-anchor="end" font-family="{FONT_MONO}" '
+                f'font-size="9.5" fill="{t["text_dim"]}">{esc(lang)} · {esc(when)}</text>'
+            )
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def build_panel_streak(theme_name, telemetry):
+    t = THEMES[theme_name]
+    parts = panel_shell(theme_name, "CONTRIBUTION STREAK", t)
+    streak = telemetry.get("contribution_streak")
+
+    cx, cy, r = PANEL_W / 2, 140, 52
+    parts.append(
+        f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{t["line"]}" stroke-width="1.4"/>'
+    )
+    if streak is None:
+        parts.append(
+            f'<text x="{cx}" y="{cy+6}" text-anchor="middle" font-family="{FONT_MONO}" '
+            f'font-size="14" fill="{t["text_dim"]}">N/A</text>'
+        )
+    else:
+        parts.append(
+            f'<text x="{cx}" y="{cy-4}" text-anchor="middle" font-family="{FONT_DISPLAY}" '
+            f'font-size="30" font-weight="700" fill="{t["text_primary"]}">{streak}</text>'
+        )
+        parts.append(
+            f'<text x="{cx}" y="{cy+18}" text-anchor="middle" font-family="{FONT_MONO}" '
+            f'font-size="9" fill="{t["accent"]}" letter-spacing="1">DAYS</text>'
+        )
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+PANEL_BUILDERS = {
+    "panel-languages": build_panel_languages,
+    "panel-activity": build_panel_activity,
+    "panel-streak": build_panel_streak,
+}
+
+
 def main():
     os.makedirs(ASSETS_DIR, exist_ok=True)
     profile = load("profile.json")
@@ -350,6 +481,14 @@ def main():
             f.write(svg)
         size_kb = os.path.getsize(out_path) / 1024
         print(f"[generate_system] {out_path} ({size_kb:.1f} KB)")
+
+        for panel_name, builder in PANEL_BUILDERS.items():
+            svg = builder(theme_name, telemetry)
+            out_path = os.path.join(ASSETS_DIR, f"{panel_name}-{theme_name}.svg")
+            with open(out_path, "w", encoding="utf-8") as f:
+                f.write(svg)
+            size_kb = os.path.getsize(out_path) / 1024
+            print(f"[generate_system] {out_path} ({size_kb:.1f} KB)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,8 @@
+<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pTitle-light-CONTRIBUTION STREAK" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif">
+<title id="pTitle-light-CONTRIBUTION STREAK">CONTRIBUTION STREAK</title>
+<rect width="560" height="220" fill="#F7F7F5"/>
+<text x="24" y="34" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="11" fill="#9A9A92" letter-spacing="2">CONTRIBUTION STREAK</text>
+<line x1="24" y1="46" x2="536" y2="46" stroke="#C9C9C4" stroke-width="1"/>
+<circle cx="280.0" cy="140" r="52" fill="none" stroke="#C9C9C4" stroke-width="1.4"/>
+<text x="280.0" y="146" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#9A9A92">N/A</text>
+</svg>
