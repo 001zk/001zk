@@ -3,5 +3,24 @@
 <rect width="560" height="220" fill="#0B0C0B"/>
 <text x="24" y="34" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="11" fill="#63635C" letter-spacing="2">LANGUAGE DISTRIBUTION</text>
 <line x1="24" y1="46" x2="536" y2="46" stroke="#2B2C28" stroke-width="1"/>
-<text x="24" y="100" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="12" fill="#63635C">N/A</text>
+<text x="24" y="79" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">HTML</text>
+<rect x="140" y="68" width="396" height="10" rx="2" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<rect x="140" y="68" width="150.5" height="10" rx="2" fill="#4C8DFF"/>
+<text x="536" y="77" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">38%</text>
+<text x="24" y="109" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">Python</text>
+<rect x="140" y="98" width="396" height="10" rx="2" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<rect x="140" y="98" width="99.0" height="10" rx="2" fill="#4C8DFF"/>
+<text x="536" y="107" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">25%</text>
+<text x="24" y="139" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">JavaScript</text>
+<rect x="140" y="128" width="396" height="10" rx="2" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<rect x="140" y="128" width="99.0" height="10" rx="2" fill="#4C8DFF"/>
+<text x="536" y="137" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">25%</text>
+<text x="24" y="169" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">C</text>
+<rect x="140" y="158" width="396" height="10" rx="2" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<rect x="140" y="158" width="23.8" height="10" rx="2" fill="#4C8DFF"/>
+<text x="536" y="167" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">6%</text>
+<text x="24" y="199" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">CSS</text>
+<rect x="140" y="188" width="396" height="10" rx="2" fill="none" stroke="#2B2C28" stroke-width="1"/>
+<rect x="140" y="188" width="23.8" height="10" rx="2" fill="#4C8DFF"/>
+<text x="536" y="197" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">6%</text>
 </svg>

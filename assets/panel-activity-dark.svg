@@ -3,5 +3,19 @@
 <rect width="560" height="220" fill="#0B0C0B"/>
 <text x="24" y="34" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="11" fill="#63635C" letter-spacing="2">RECENT ACTIVITY</text>
 <line x1="24" y1="46" x2="536" y2="46" stroke="#2B2C28" stroke-width="1"/>
-<text x="24" y="100" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="12" fill="#63635C">N/A</text>
+<circle cx="30" cy="66" r="3" fill="#4C8DFF"/>
+<text x="44" y="70" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">001zk</text>
+<text x="536" y="70" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">HTML · today</text>
+<circle cx="30" cy="96" r="3" fill="#4C8DFF"/>
+<text x="44" y="100" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">SIPAT-AVALIAC-O</text>
+<text x="536" y="100" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">CSS · 27d ago</text>
+<circle cx="30" cy="126" r="3" fill="#4C8DFF"/>
+<text x="44" y="130" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">Quiz-SIPAT</text>
+<text x="536" y="130" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">JavaScript · 28d ago</text>
+<circle cx="30" cy="156" r="3" fill="#4C8DFF"/>
+<text x="44" y="160" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">Portfolio</text>
+<text x="536" y="160" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">HTML · 1mo ago</text>
+<circle cx="30" cy="186" r="3" fill="#4C8DFF"/>
+<text x="44" y="190" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#F2F2EC">tcc-estacio-tec-inf</text>
+<text x="536" y="190" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#63635C">HTML · 1mo ago</text>
 </svg>

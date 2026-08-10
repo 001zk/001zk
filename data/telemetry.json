@@ -5,5 +5,55 @@
   "language_count": 5,
   "stars_total": 6,
   "forks_total": 3,
-  "activity_state": "ACTIVE"
+  "activity_state": "ACTIVE",
+  "language_breakdown": [
+    {
+      "name": "HTML",
+      "percent": 38
+    },
+    {
+      "name": "Python",
+      "percent": 25
+    },
+    {
+      "name": "JavaScript",
+      "percent": 25
+    },
+    {
+      "name": "C",
+      "percent": 6
+    },
+    {
+      "name": "CSS",
+      "percent": 6
+    }
+  ],
+  "recent_activity": [
+    {
+      "name": "001zk",
+      "days_ago": 0,
+      "language": "HTML"
+    },
+    {
+      "name": "SIPAT-AVALIAC-O",
+      "days_ago": 27,
+      "language": "CSS"
+    },
+    {
+      "name": "Quiz-SIPAT",
+      "days_ago": 28,
+      "language": "JavaScript"
+    },
+    {
+      "name": "Portfolio",
+      "days_ago": 35,
+      "language": "HTML"
+    },
+    {
+      "name": "tcc-estacio-tec-inf",
+      "days_ago": 40,
+      "language": "HTML"
+    }
+  ],
+  "contribution_streak": 2
 }
