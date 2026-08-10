@@ -8,12 +8,12 @@
   "activity_state": "ACTIVE",
   "language_breakdown": [
     {
-      "name": "HTML",
-      "percent": 38
+      "name": "Python",
+      "percent": 31
     },
     {
-      "name": "Python",
-      "percent": 25
+      "name": "HTML",
+      "percent": 31
     },
     {
       "name": "JavaScript",
@@ -32,7 +32,7 @@
     {
       "name": "001zk",
       "days_ago": 0,
-      "language": "HTML"
+      "language": "Python"
     },
     {
       "name": "SIPAT-AVALIAC-O",

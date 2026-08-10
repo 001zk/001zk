@@ -3,14 +3,14 @@
 <rect width="560" height="220" fill="#F7F7F5"/>
 <text x="24" y="34" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="11" fill="#9A9A92" letter-spacing="2">LANGUAGE DISTRIBUTION</text>
 <line x1="24" y1="46" x2="536" y2="46" stroke="#C9C9C4" stroke-width="1"/>
-<text x="24" y="79" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">HTML</text>
+<text x="24" y="79" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">Python</text>
 <rect x="140" y="68" width="396" height="10" rx="2" fill="none" stroke="#C9C9C4" stroke-width="1"/>
-<rect x="140" y="68" width="150.5" height="10" rx="2" fill="#0B5FFF"/>
-<text x="536" y="77" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">38%</text>
-<text x="24" y="109" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">Python</text>
+<rect x="140" y="68" width="122.8" height="10" rx="2" fill="#0B5FFF"/>
+<text x="536" y="77" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">31%</text>
+<text x="24" y="109" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">HTML</text>
 <rect x="140" y="98" width="396" height="10" rx="2" fill="none" stroke="#C9C9C4" stroke-width="1"/>
-<rect x="140" y="98" width="99.0" height="10" rx="2" fill="#0B5FFF"/>
-<text x="536" y="107" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">25%</text>
+<rect x="140" y="98" width="122.8" height="10" rx="2" fill="#0B5FFF"/>
+<text x="536" y="107" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">31%</text>
 <text x="24" y="139" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">JavaScript</text>
 <rect x="140" y="128" width="396" height="10" rx="2" fill="none" stroke="#C9C9C4" stroke-width="1"/>
 <rect x="140" y="128" width="99.0" height="10" rx="2" fill="#0B5FFF"/>
