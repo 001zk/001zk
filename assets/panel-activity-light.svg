@@ -5,13 +5,13 @@
 <line x1="24" y1="46" x2="536" y2="46" stroke="#C9C9C4" stroke-width="1"/>
 <circle cx="30" cy="66" r="3" fill="#0B5FFF"/>
 <text x="44" y="70" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">001zk</text>
-<text x="536" y="70" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">Python · today</text>
+<text x="536" y="70" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">Python · 1d ago</text>
 <circle cx="30" cy="96" r="3" fill="#0B5FFF"/>
 <text x="44" y="100" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">SIPAT-AVALIAC-O</text>
-<text x="536" y="100" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">CSS · 28d ago</text>
+<text x="536" y="100" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">CSS · 29d ago</text>
 <circle cx="30" cy="126" r="3" fill="#0B5FFF"/>
 <text x="44" y="130" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">Quiz-SIPAT</text>
-<text x="536" y="130" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">JavaScript · 29d ago</text>
+<text x="536" y="130" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">JavaScript · 1mo ago</text>
 <circle cx="30" cy="156" r="3" fill="#0B5FFF"/>
 <text x="44" y="160" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#171714">Portfolio</text>
 <text x="536" y="160" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9.5" fill="#9A9A92">HTML · 1mo ago</text>
