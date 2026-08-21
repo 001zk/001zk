@@ -1,7 +1,7 @@
 {
   "public_repos": 16,
   "followers": 26,
-  "following": 35,
+  "following": 36,
   "language_count": 5,
   "stars_total": 6,
   "forks_total": 3,
@@ -36,22 +36,22 @@
     },
     {
       "name": "SIPAT-AVALIAC-O",
-      "days_ago": 37,
+      "days_ago": 38,
       "language": "CSS"
     },
     {
       "name": "Quiz-SIPAT",
-      "days_ago": 38,
+      "days_ago": 39,
       "language": "JavaScript"
     },
     {
       "name": "Portfolio",
-      "days_ago": 46,
+      "days_ago": 47,
       "language": "HTML"
     },
     {
       "name": "tcc-estacio-tec-inf",
-      "days_ago": 50,
+      "days_ago": 51,
       "language": "HTML"
     }
   ],
