@@ -31,27 +31,27 @@
   "recent_activity": [
     {
       "name": "001zk",
-      "days_ago": 1,
+      "days_ago": 0,
       "language": "Python"
     },
     {
       "name": "SIPAT-AVALIAC-O",
-      "days_ago": 73,
+      "days_ago": 74,
       "language": "CSS"
     },
     {
       "name": "Quiz-SIPAT",
-      "days_ago": 74,
+      "days_ago": 75,
       "language": "JavaScript"
     },
     {
       "name": "Portfolio",
-      "days_ago": 82,
+      "days_ago": 83,
       "language": "HTML"
     },
     {
       "name": "tcc-estacio-tec-inf",
-      "days_ago": 86,
+      "days_ago": 87,
       "language": "HTML"
     }
   ],
