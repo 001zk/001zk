@@ -130,8 +130,8 @@ def render(profile, projects, repos, links, svg_light, svg_dark):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>001ZK // LIVING SYSTEM</title>
-<meta name="description" content="Arquitetura de sistema — rede, infraestrutura, automação, engenharia de software e pesquisa.">
+<title>001ZK // PROJECT MAP</title>
+<meta name="description" content="Mapa interativo dos projetos públicos de Luiz Gustavo.">
 <style>
   :root {{
     --bg: #F7F7F5; --panel: #FFFFFF; --line: #E3E3DE; --text: #171714;
@@ -193,34 +193,35 @@ def render(profile, projects, repos, links, svg_light, svg_dark):
     <div class="theme-light">{svg_light}</div>
     <div class="theme-dark">{svg_dark}</div>
   </div>
-  <div id="node-panel">Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.</div>
+  <div id="node-panel">Selecione um repositório no mapa para ver seus detalhes.</div>
 
   <div class="wrap">
-    <a class="back" href="{esc(gh)}">← README no GitHub</a>
+    <a class="back" href="{esc(gh)}">← Ver perfil no GitHub</a>
 
-    <h2>System</h2>
-    <p>001ZK // LIVING SYSTEM representa como rede, infraestrutura, automação, software e pesquisa se conectam — não como timeline, mas como arquitetura.</p>
+    <h2>Sobre</h2>
+    <p>Sou Luiz Gustavo, estudante de Engenharia de Software e Analista de Suporte de TI Jr. Trabalho com suporte, redes, infraestrutura, automação e desenvolvimento de soluções web.</p>
+    <p>O mapa seleciona automaticamente cinco repositórios públicos e dimensiona cada planeta conforme o tamanho real do projeto no GitHub.</p>
 
-    <h2>Experience</h2>
-    <p><strong>Current node</strong> — {esc(curr["company"])} · {esc(curr["title"])}</p>
-    <p><strong>Previous node</strong> — {esc(prev["company"])} · {esc(prev["role"])}<br>
+    <h2>Experiência</h2>
+    <p><strong>{esc(curr["company"])}</strong> — {esc(curr["title"])}</p>
+    <p><strong>{esc(prev["company"])}</strong> — {esc(prev["role"])}<br>
     <span class="mono dim small">{" · ".join(esc(s) for s in prev["skills"])}</span></p>
 
-    <h2>Engineering</h2>
+    <h2>Repositórios</h2>
     <table>{module_rows}</table>
 
-    <h2>Research</h2>
-    <p class="mono accent small">{esc(research["id"])} / RESEARCH NODE — {esc(research["codename"])}</p>
+    <h2>Pesquisa</h2>
+    <p class="mono accent small">{esc(research["id"])} — {esc(research["codename"])}</p>
     <p><strong>{research_title_html}</strong></p>
     <p class="mono dim small">{" · ".join(esc(t) for t in research["themes"])}</p>
 
-    <h2>Certifications</h2>
+    <h2>Certificações</h2>
     {cert_rows}
 
-    <h2>Projects</h2>
+    <h2>Projetos adicionais</h2>
     {project_rows}
 
-    <h2>Contact</h2>
+    <h2>Contato</h2>
     <p>{contact_html}</p>
 
     <footer>SYSTEM REV. {esc(profile["system"]["revision"])} · BUILD {esc(profile["system"]["build"])}</footer>
@@ -241,7 +242,7 @@ def render(profile, projects, repos, links, svg_light, svg_dark):
     }}
     function resetPanel() {{
       panel.classList.remove('active');
-      panel.textContent = 'Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.';
+      panel.textContent = 'Selecione um repositório no mapa para ver seus detalhes.';
     }}
 
     document.querySelectorAll('.ls-node').forEach(function (node) {{
