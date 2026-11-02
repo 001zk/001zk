@@ -42,8 +42,31 @@ def esc(s):
     )
 
 
-def render(profile, projects, links, svg_light, svg_dark):
-    modules = profile["modules"]
+def repo_modules(repos):
+    return [
+        {
+            "id": f"REPO/{index:02d}",
+            "name": repo.get("name", "REPOSITORY"),
+            "state": "PUBLIC",
+            "items": [
+                (repo.get("language") or "N/A").upper(),
+                f"{repo.get('size_kb', 0)} KB",
+                f"★ {repo.get('stars', 0)}",
+            ],
+            "url": repo.get("url", ""),
+        }
+        for index, repo in enumerate(repos, start=1)
+    ]
+
+
+def module_name_cell(module):
+    name = esc(module["name"])
+    url = esc(module.get("url", ""))
+    return f'<a href="{url}">{name}</a>' if url else name
+
+
+def render(profile, projects, repos, links, svg_light, svg_dark):
+    modules = repo_modules(repos) or profile["modules"]
     research = profile["research"]
     certs = profile["certifications"]
     prev = profile["previous_experience"]
@@ -51,7 +74,7 @@ def render(profile, projects, links, svg_light, svg_dark):
 
     module_rows = "\n".join(
         f'<tr><td class="mono accent">{esc(m["id"])}</td>'
-        f'<td>{esc(m["name"])}</td>'
+        f'<td>{module_name_cell(m)}</td>'
         f'<td class="mono dim">{" · ".join(esc(i) for i in m["items"])}</td></tr>'
         for m in modules
     )
@@ -95,6 +118,7 @@ def render(profile, projects, links, svg_light, svg_dark):
                 "name": m["name"],
                 "state": m["state"],
                 "items": m["items"],
+                "url": m.get("url", ""),
             }
             for m in modules
         },
@@ -211,7 +235,8 @@ def render(profile, projects, links, svg_light, svg_dark):
       if (!m) return;
       panel.classList.add('active');
       panel.innerHTML =
-        '<div class="np-title"><span class="np-id">' + id + '</span> — ' + m.name + '</div>' +
+        '<div class="np-title"><span class="np-id">' + id + '</span> — ' +
+        (m.url ? '<a href="' + m.url + '">' + m.name + '</a>' : m.name) + '</div>' +
         m.state + ' · ' + m.items.join(' · ');
     }}
     function resetPanel() {{
@@ -249,6 +274,8 @@ def load_svg(theme_name):
 def main():
     profile = load("profile.json")
     projects = load("projects.json", {"projects": []})
+    repos_payload = load("repos.json", {"repositories": []})
+    repos = repos_payload.get("repositories", [])
     links = load("links.json", {})
 
     if profile is None:
@@ -257,7 +284,7 @@ def main():
     svg_light = load_svg("light")
     svg_dark = load_svg("dark")
 
-    html = render(profile, projects, links, svg_light, svg_dark)
+    html = render(profile, projects, repos, links, svg_light, svg_dark)
     out_path = os.path.join(ROOT, "index.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
