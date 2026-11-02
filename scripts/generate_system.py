@@ -4,7 +4,7 @@
 generate_system.py
 
 Gera assets/living-system-light.svg e assets/living-system-dark.svg
-a partir de data/profile.json, data/projects.json e (opcionalmente)
+a partir de data/profile.json, data/repos.json e (opcionalmente)
 data/telemetry.json (produzido pelo pipeline da GitHub API).
 
 Regra de ouro: nenhum dado é inventado. Quando um valor de telemetria
@@ -84,18 +84,17 @@ def esc(s):
 
 
 # ---------------------------------------------------------------------------
-# Layout: core node + five module nodes, asymmetric, non-grid placement.
+# Layout: core node + cinco repositórios, asymmetric, non-grid placement.
 # ---------------------------------------------------------------------------
 
 CORE = {"x": 330, "y": 400, "r": 62}
 
-MODULES_LAYOUT = [
-    # id matches data/profile.json modules[].id
-    {"id": "NODE/NET", "x": 640, "y": 160, "r": 40},
-    {"id": "NODE/INF", "x": 960, "y": 270, "r": 40},
-    {"id": "NODE/AUT", "x": 560, "y": 530, "r": 40},
-    {"id": "NODE/SWE", "x": 900, "y": 530, "r": 40},
-    {"id": "NODE/RES", "x": 1090, "y": 410, "r": 36},
+MODULE_POSITIONS = [
+    {"x": 640, "y": 160},
+    {"x": 960, "y": 270},
+    {"x": 560, "y": 530},
+    {"x": 900, "y": 530},
+    {"x": 1090, "y": 410},
 ]
 
 STATE_GLYPH = {
@@ -104,6 +103,44 @@ STATE_GLYPH = {
     "STANDBY": "\u25CB",      # ○
     "GENERATED": "\u25C7",    # ◇
 }
+
+
+def short_repo_name(name):
+    """Mantém nomes longos legíveis dentro do planeta; o painel usa o nome completo."""
+    if len(name) <= 18:
+        return name
+    return name[:16].rstrip("-_ ") + "…"
+
+
+def repo_modules(repos):
+    """Converte os repositórios sincronizados em nós visuais com escala logarítmica."""
+    if not repos:
+        return []
+    sizes = [max(0, int(repo.get("size_kb", 0))) for repo in repos]
+    low = min(sizes)
+    high = max(sizes)
+    modules = []
+    for index, (position, repo) in enumerate(zip(MODULE_POSITIONS, repos), start=1):
+        size = max(0, int(repo.get("size_kb", 0)))
+        if high == low:
+            scale = 0.5
+        else:
+            scale = (math.log1p(size) - math.log1p(low)) / (math.log1p(high) - math.log1p(low))
+        radius = round(32 + (24 * scale))
+        language = repo.get("language") or "N/A"
+        size_label = f"{size} KB" if size < 1024 else f"{size / 1024:.1f} MB"
+        modules.append({
+            "id": f"REPO/{index:02d}",
+            "name": short_repo_name(repo.get("name", "REPOSITORY")),
+            "full_name": repo.get("name", "REPOSITORY"),
+            "url": repo.get("url", ""),
+            "state": "PUBLIC",
+            "items": [language.upper(), size_label, f"★ {repo.get('stars', 0)}"],
+            "x": position["x"],
+            "y": position["y"],
+            "r": radius,
+        })
+    return modules
 
 
 def bezier_path(x1, y1, x2, y2, bend=0.35):
@@ -117,9 +154,10 @@ def bezier_path(x1, y1, x2, y2, bend=0.35):
     return f"M {x1:.1f},{y1:.1f} Q {cx:.1f},{cy:.1f} {x2:.1f},{y2:.1f}"
 
 
-def build_svg(theme_name, profile, projects, telemetry):
+def build_svg(theme_name, profile, repos, telemetry):
     t = THEMES[theme_name]
-    modules = {m["id"]: m for m in profile["modules"]}
+    layout = repo_modules(repos)
+    modules = {m["id"]: m for m in layout}
     parts = []
 
     parts.append(
@@ -130,9 +168,9 @@ def build_svg(theme_name, profile, projects, telemetry):
         "<title id=\"svgTitle\">001ZK // LIVING SYSTEM</title>"
     )
     parts.append(
-        "<desc id=\"svgDesc\">Arquitetura de sistema interconectando rede, "
-        "infraestrutura, automação, engenharia de software e pesquisa, "
-        "representando a atuação de Luiz Gustavo (001zk).</desc>"
+        "<desc id=\"svgDesc\">Cinco repositórios públicos de 001zk conectados ao "
+        "núcleo do sistema; o tamanho de cada planeta representa o tamanho real "
+        "do repositório no GitHub.</desc>"
     )
 
     # ---- defs -------------------------------------------------------
@@ -167,7 +205,7 @@ def build_svg(theme_name, profile, projects, telemetry):
     )
 
     # ---- connective paths (core -> modules) ---------------------------
-    for i, m in enumerate(MODULES_LAYOUT):
+    for i, m in enumerate(layout):
         bend = 0.28 if i % 2 == 0 else -0.22
         d = bezier_path(CORE["x"], CORE["y"], m["x"], m["y"], bend=bend)
         path_id = f"path-{theme_name}-{i}"
@@ -191,7 +229,7 @@ def build_svg(theme_name, profile, projects, telemetry):
         )
 
     # ---- module nodes ---------------------------------------------------
-    for m in MODULES_LAYOUT:
+    for m in layout:
         meta = modules.get(m["id"], {})
         name = meta.get("name", m["id"])
         state = meta.get("state", "OPERATIONAL")
@@ -200,7 +238,7 @@ def build_svg(theme_name, profile, projects, telemetry):
         x, y = m["x"], m["y"]
         parts.append(
             f'<g class="ls-node" data-node-id="{esc(m["id"])}" tabindex="0" '
-            f'role="button" aria-label="{esc(name)} — {esc(state)}">'
+            f'role="button" aria-label="{esc(meta.get("full_name", name))} — {esc(state)}">'
         )
         parts.append(
             f'<circle cx="{x}" cy="{y}" r="{r}" fill="{t["node_fill"]}" '
@@ -262,7 +300,7 @@ def build_svg(theme_name, profile, projects, telemetry):
         f'<text x="{hx}" y="{hy+30}" font-family="{FONT_MONO}" font-size="14" '
         f'fill="{t["accent"]}" letter-spacing="3">README</text>'
     )
-    tagline = ["SOFTWARE ENGINEERING", "INFRASTRUCTURE", "AUTOMATION", "NETWORK SYSTEMS"]
+    tagline = ["GITHUB REPOSITORIES", "SIZE-SCALED NODES", "AUTO-SYNCED", "PUBLIC PROJECTS"]
     for i, line in enumerate(tagline):
         parts.append(
             f'<text x="{hx}" y="{hy+58 + i*16}" font-family="{FONT_MONO}" font-size="10.5" '
@@ -469,14 +507,15 @@ PANEL_BUILDERS = {
 def main():
     os.makedirs(ASSETS_DIR, exist_ok=True)
     profile = load("profile.json")
-    projects = load("projects.json", {"projects": []})
+    repos_payload = load("repos.json", {"repositories": []})
+    repos = repos_payload.get("repositories", [])
     telemetry = load("telemetry.json", {})
 
     if profile is None:
         raise SystemExit("data/profile.json não encontrado — abortando geração.")
 
     for theme_name in THEMES:
-        svg = build_svg(theme_name, profile, projects, telemetry)
+        svg = build_svg(theme_name, profile, repos, telemetry)
         out_path = os.path.join(ASSETS_DIR, f"living-system-{theme_name}.svg")
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(svg)
