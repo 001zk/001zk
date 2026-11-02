@@ -1,124 +1,93 @@
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/living-system-light.svg">
-  <img alt="001ZK Living System — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
-</picture> <table>
-<tr>
-<td width="33%"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-languages-dark.svg">
-  <img alt="Distribuição de linguagens" src="assets/panel-languages-light.svg" width="100%">
-</picture></td>
-<td width="33%"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-activity-dark.svg">
-  <img alt="Atividade recente" src="assets/panel-activity-light.svg" width="100%">
-</picture></td>
-<td width="33%"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-streak-dark.svg">
-  <img alt="Streak de contribuição" src="assets/panel-streak-light.svg" width="100%">
-</picture></td>
-</tr>
-</table> <div align="center">
+  <img alt="Mapa de projetos públicos de Luiz Gustavo" src="assets/living-system-light.svg">
+</picture> <div align="center">
 
-[**OPEN SYSTEM ↗**](https://001zk.github.io)
+[**VER MAPA DE PROJETOS ↗**](https://001zk.github.io/001zk/)
 
 </div>
 
 ---
 
-## SYSTEM
+## SOBRE
 
-`001ZK // LIVING SYSTEM` representa meus repositórios públicos como um sistema conectado — não como uma timeline, mas como uma arquitetura. Os cinco planetas são selecionados automaticamente pela API do GitHub e seu raio acompanha o tamanho real do repositório.
+Sou Luiz Gustavo, estudante de Engenharia de Software e Analista de Suporte de TI Jr. Trabalho com suporte, redes, infraestrutura, automação e desenvolvimento de soluções web.
 
-```
-REPOSITORY ── REPOSITORY ── REPOSITORY ── REPOSITORY ── REPOSITORY
-```
+O mapa acima seleciona automaticamente cinco repositórios públicos da minha conta no GitHub. O tamanho de cada planeta acompanha o tamanho real do repositório, enquanto a página interativa permite abrir cada projeto diretamente.
 
 ---
 
-## EXPERIENCE
+## EXPERIÊNCIA
 
-**CURRENT NODE**
-Minsait / Indra Company — Analista de Suporte de TI Jr
+**Minsait / Indra Company** — Analista de Suporte de TI Jr
 
-**PREVIOUS NODE**
-Arroba Banda Larga — Analista de NOC / TI Interno
-`GPON` `EPON` `OLT` `ONU` `Zabbix` `IXC` `Proxmox` `VPN` · N2/N3 support, network troubleshooting, corporate IT infrastructure.
+**Arroba Banda Larga** — Analista de NOC / TI Interno
 
----
-
-## ENGINEERING
-
-| Repository node | Live data |
-| --- | --- |
-| `REPO/01..05` | Nome, linguagem, estrelas e tamanho real de cada repositório selecionado |
-
-Os dados acima são regenerados em [`data/repos.json`](data/repos.json) pelo [workflow automático](.github/workflows/update-system.yml). O ranking considera os repositórios públicos próprios e não arquivados, ordenados pelo tamanho retornado pela API do GitHub.
-
-**Education**
-Engenharia de Software — Estácio de Sá (cursando)
-Técnico em Informática — concluído
+Experiência com `GPON` `EPON` `OLT` `ONU` `Zabbix` `IXC` `Proxmox` `VPN`, troubleshooting de redes, infraestrutura corporativa e suporte N2/N3.
 
 ---
 
-## RESEARCH
+## PROJETOS
 
-**R-01 / RESEARCH NODE — REUSABLE COMPUTING**
+Os repositórios do mapa são detectados automaticamente pela API do GitHub e registrados em [`data/repos.json`](data/repos.json). O sistema seleciona os cinco maiores repositórios públicos próprios e atualiza os assets por meio do [workflow automático](.github/workflows/update-system.yml).
+
+Projetos adicionais ou selecionados manualmente podem ser consultados em [`data/projects.json`](data/projects.json).
+
+---
+
+## PESQUISA
+
+**R-01 — REUSABLE COMPUTING**
+
 [*Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas*](https://zenodo.org/records/18135901)
+
 `HARDWARE` `REUSE` `SUSTAINABILITY` · publicado no Zenodo
 
 ---
 
-## CERTIFICATIONS
+## FORMAÇÃO
 
-**C-01** — OCNA Wireless — TP-Link
-**C-02** — Ignite Brasil — Empreendedorismo — Wadhwani Foundation
+Engenharia de Software — Estácio de Sá, cursando
 
----
-
-## PROJECTS
-
-Configurados em [`data/projects.json`](data/projects.json) — atualizados sem tocar no README.
+Técnico em Informática — concluído
 
 ---
 
-## TECHNOLOGY
+## CERTIFICAÇÕES
+
+**OCNA Wireless** — TP-Link
+
+**Ignite Brasil — Empreendedorismo** — Wadhwani Foundation
+
+---
+
+## TECNOLOGIAS
 
 `Python` `Node.js` `JavaScript` `Google Apps Script` `Linux` `Git` `GitHub`
 
 ---
 
-## CONTACT
+## CONTATO
 
-GitHub: [@001zk](https://github.com/001zk) · [@Luiz-alt001](https://github.com/Luiz-alt001)
-LinkedIn: [Luiz Gustavo de Barros](https://www.linkedin.com/in/luiz-gustavo-de-barros/)
-Portfolio: [portfolio-luizs-projects-9a2b01d1.vercel.app](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
+[GitHub](https://github.com/001zk) · [GitHub alternativo](https://github.com/Luiz-alt001) · [LinkedIn](https://www.linkedin.com/in/luiz-gustavo-de-barros/) · [Portfólio](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
 
 ---
 
-<sub>SYSTEM REV. 2026.08 · BUILD 001ZK — gerado a partir de <a href="data/profile.json">data/profile.json</a> via <a href="scripts/generate_system.py">scripts/generate_system.py</a>. Nenhuma métrica é inventada: campos sem dado real exibem <code>N/A</code>.</sub>
+<sub>Sistema atualizado automaticamente a partir dos dados públicos do GitHub. A geração usa <a href="scripts/fetch_repos.py">scripts/fetch_repos.py</a>, <a href="scripts/generate_system.py">scripts/generate_system.py</a> e <a href="scripts/generate_web.py">scripts/generate_web.py</a>.</sub>
 
 ---
 
 <details>
-<summary><sub>Setup do GitHub Pages (OPEN SYSTEM)</sub></summary>
-
-O `index.html` já está pronto na raiz do repositório, mas o GitHub Pages
-precisa ser habilitado manualmente uma vez:
-
-1. No repositório, vá em **Settings → Pages**
-
-1. Em **Source**, selecione **Deploy from a branch**
-
-1. Branch: **main**, pasta: **/ (root)** → **Save**
-
-1. Aguarde 1–2 minutos e acesse `https://001zk.github.io`
-
-Para sincronizar manualmente ou testar localmente:
+<summary><sub>Execução manual</sub></summary>
 
 ```bash
 python3 scripts/fetch_repos.py
 python3 scripts/generate_system.py
 python3 scripts/generate_web.py
+python3 scripts/validate_assets.py
 ```
+
+O workflow do GitHub Actions executa esse processo automaticamente todos os dias e também pode ser iniciado manualmente em **Actions → update-system → Run workflow**.
 
 </details>
