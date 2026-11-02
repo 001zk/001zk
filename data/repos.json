@@ -1,0 +1,53 @@
+{
+  "source": "https://github.com/001zk",
+  "account": "001zk",
+  "selection": "top_5_by_repository_size",
+  "total_public_repositories": 14,
+  "repositories": [
+    {
+      "name": "Portfolio",
+      "url": "https://github.com/001zk/Portfolio",
+      "description": "my personal portfolio with my projects, achievements and future ideas",
+      "language": "HTML",
+      "size_kb": 6036,
+      "updated_at": "2026-07-05T01:48:32Z",
+      "stars": 0
+    },
+    {
+      "name": "tcc-estacio-tec-inf",
+      "url": "https://github.com/001zk/tcc-estacio-tec-inf",
+      "description": "Sem descrição no GitHub.",
+      "language": "HTML",
+      "size_kb": 2523,
+      "updated_at": "2026-06-30T10:58:56Z",
+      "stars": 0
+    },
+    {
+      "name": "Quiz-SIPAT",
+      "url": "https://github.com/001zk/Quiz-SIPAT",
+      "description": "https://001zk.github.io/Quiz-SIPAT/",
+      "language": "JavaScript",
+      "size_kb": 1388,
+      "updated_at": "2026-07-12T21:42:02Z",
+      "stars": 0
+    },
+    {
+      "name": "SIPAT-AVALIAC-O",
+      "url": "https://github.com/001zk/SIPAT-AVALIAC-O",
+      "description": "Sem descrição no GitHub.",
+      "language": "CSS",
+      "size_kb": 286,
+      "updated_at": "2026-07-14T00:15:04Z",
+      "stars": 0
+    },
+    {
+      "name": "FTL-Brasil---Capstone---TCC---GeoPass",
+      "url": "https://github.com/001zk/FTL-Brasil---Capstone---TCC---GeoPass",
+      "description": "Sem descrição no GitHub.",
+      "language": "HTML",
+      "size_kb": 117,
+      "updated_at": "2026-11-02T16:31:37Z",
+      "stars": 0
+    }
+  ]
+}
