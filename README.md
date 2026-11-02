@@ -11,15 +11,15 @@
 
 ### LINGUAGENS MAIS USADAS
 
-![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816316&Signature=MEUCIG9u6hx30--XzQv10QFzDv07-tHsoScIpUlLWAYamXw2AiEAu4mvx99jAR6lllgi9-fxxEydDNtFn0SBjEWZB8N7Ook_&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816471&Signature=MEUCIDNlPO7j0Ik03HaR8A6SCDKGl4chCjC7yMxnxQFoja9KAiEAk9UH1FJ8kRtSUKlyDynjxhu-Bz4JYiAY5I~L~Esguz4_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### ATIVIDADE RECENTE
 
-![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816316&Signature=MEUCIQDQXU5b3FwnnHaFsboW7vCN7roAWtMzYyzkRRSgE6XksAIgWMdIg5RxdkcBbKiSKuUuqD6KKJ5qojIOV0aa6bM00P8_&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816471&Signature=MEUCIGdN49fAoxemrZq~X~ZM4FNWiBCklP7aQqXNFbKP~YJjAiEAntnuGbW-5Z50TM-w8D2~ky-~xc6onUYThfBGL6Zt83s_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### SEQUÊNCIA DE CONTRIBUIÇÃO
 
-![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816316&Signature=MEUCIE9tfCRkIkV1yjYPgIIGmk8eiyQJhhwovF~IKXc~xljqAiEA153su-7~-AK1aht5x3MjOojVHFSfCafX0MPwYOFsOH0_&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816471&Signature=MEYCIQDARvLJQITBTAd0a4a2ifhVMoNo8DON-9MtO9Eq7qzXYwIhAOdY0Rt~5lr2ERIrjqL-itSbaN3UU9xaIKXpsfKiH7B8&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ---
 
