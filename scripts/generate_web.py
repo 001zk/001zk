@@ -65,6 +65,12 @@ def module_name_cell(module):
     return f'<a href="{url}">{name}</a>' if url else name
 
 
+def project_name_cell(project):
+    name = esc(project["name"])
+    url = esc(project.get("url", ""))
+    return f'<a href="{url}">{name}</a>' if url else name
+
+
 def render(profile, projects, repos, links, svg_light, svg_dark):
     modules = repo_modules(repos) or profile["modules"]
     research = profile["research"]
@@ -87,7 +93,7 @@ def render(profile, projects, repos, links, svg_light, svg_dark):
 
     project_rows = "\n".join(
         f'<div class="project">'
-        f'<div class="project-name">{esc(p["name"])}</div>'
+        f'<div class="project-name">{project_name_cell(p)}</div>'
         f'<div class="dim">{esc(p["description"])}</div>'
         f'<div class="mono dim small">{" · ".join(esc(s) for s in p.get("stack", []))} — {esc(p.get("status",""))}</div>'
         f'</div>'
