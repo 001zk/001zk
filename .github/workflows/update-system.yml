@@ -39,6 +39,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TELEMETRY_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/fetch_telemetry.py
 
+      - name: Fetch repositories (GitHub API, dados públicos)
+        env:
+          GITHUB_HANDLE: 001zk
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/fetch_repos.py
+
       - name: Generate SVG assets
         run: python3 scripts/generate_system.py
 
