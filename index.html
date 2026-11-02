@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>001ZK // LIVING SYSTEM</title>
-<meta name="description" content="Arquitetura de sistema — rede, infraestrutura, automação, engenharia de software e pesquisa.">
+<title>001ZK // PROJECT MAP</title>
+<meta name="description" content="Mapa interativo dos projetos públicos de Luiz Gustavo.">
 <style>
   :root {
     --bg: #F7F7F5; --panel: #FFFFFF; --line: #E3E3DE; --text: #171714;
@@ -270,40 +270,41 @@
 <text x="840" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#F2F2EC">ACTIVE</text>
 </svg></div>
   </div>
-  <div id="node-panel">Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.</div>
+  <div id="node-panel">Selecione um repositório no mapa para ver seus detalhes.</div>
 
   <div class="wrap">
-    <a class="back" href="https://github.com/001zk">← README no GitHub</a>
+    <a class="back" href="https://github.com/001zk">← Ver perfil no GitHub</a>
 
-    <h2>System</h2>
-    <p>001ZK // LIVING SYSTEM representa como rede, infraestrutura, automação, software e pesquisa se conectam — não como timeline, mas como arquitetura.</p>
+    <h2>Sobre</h2>
+    <p>Sou Luiz Gustavo, estudante de Engenharia de Software e Analista de Suporte de TI Jr. Trabalho com suporte, redes, infraestrutura, automação e desenvolvimento de soluções web.</p>
+    <p>O mapa seleciona automaticamente cinco repositórios públicos e dimensiona cada planeta conforme o tamanho real do projeto no GitHub.</p>
 
-    <h2>Experience</h2>
-    <p><strong>Current node</strong> — Minsait / Indra Company · Analista de Suporte de TI Jr</p>
-    <p><strong>Previous node</strong> — Arroba Banda Larga · Analista de NOC / TI Interno<br>
+    <h2>Experiência</h2>
+    <p><strong>Minsait / Indra Company</strong> — Analista de Suporte de TI Jr</p>
+    <p><strong>Arroba Banda Larga</strong> — Analista de NOC / TI Interno<br>
     <span class="mono dim small">GPON · EPON · OLT · ONU · Zabbix · IXC · Proxmox · VPN · network troubleshooting · infrastructure · corporate IT · NOC · N2/N3 support</span></p>
 
-    <h2>Engineering</h2>
+    <h2>Repositórios</h2>
     <table><tr><td class="mono accent">REPO/01</td><td><a href="https://github.com/001zk/Portfolio">Portfolio</a></td><td class="mono dim">HTML · 6036 KB · ★ 0</td></tr>
 <tr><td class="mono accent">REPO/02</td><td><a href="https://github.com/001zk/tcc-estacio-tec-inf">tcc-estacio-tec-inf</a></td><td class="mono dim">HTML · 2523 KB · ★ 0</td></tr>
 <tr><td class="mono accent">REPO/03</td><td><a href="https://github.com/001zk/Quiz-SIPAT">Quiz-SIPAT</a></td><td class="mono dim">JAVASCRIPT · 1388 KB · ★ 0</td></tr>
 <tr><td class="mono accent">REPO/04</td><td><a href="https://github.com/001zk/SIPAT-AVALIAC-O">SIPAT-AVALIAC-O</a></td><td class="mono dim">CSS · 286 KB · ★ 0</td></tr>
 <tr><td class="mono accent">REPO/05</td><td><a href="https://github.com/001zk/FTL-Brasil---Capstone---TCC---GeoPass">FTL-Brasil---Capstone---TCC---GeoPass</a></td><td class="mono dim">HTML · 117 KB · ★ 0</td></tr></table>
 
-    <h2>Research</h2>
-    <p class="mono accent small">R-01 / RESEARCH NODE — REUSABLE COMPUTING</p>
+    <h2>Pesquisa</h2>
+    <p class="mono accent small">R-01 — REUSABLE COMPUTING</p>
     <p><strong><a href="https://zenodo.org/records/18135901">Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas</a></strong></p>
     <p class="mono dim small">HARDWARE · REUSE · SUSTAINABILITY</p>
 
-    <h2>Certifications</h2>
+    <h2>Certificações</h2>
     <div class="cert"><span class="mono accent">C-01</span><span>OCNA WIRELESS</span><span class="dim">TP-LINK</span></div>
 <div class="cert"><span class="mono accent">C-02</span><span>IGNITE BRASIL</span><span class="dim">WADHWANI FOUNDATION</span></div>
 
-    <h2>Projects</h2>
+    <h2>Projetos adicionais</h2>
     <div class="project"><div class="project-name">NOC 360</div><div class="dim">Dashboard de observabilidade de NOC construído sobre a API do base44, consolidando estado de rede e infraestrutura em um único painel.</div><div class="mono dim small">JavaScript · base44 API — ACTIVE</div></div>
 <div class="project"><div class="project-name">001ZK // LIVING SYSTEM</div><div class="dim">Este repositório. Arquitetura de perfil GitHub gerada proceduralmente a partir de dados estruturados.</div><div class="mono dim small">Python · SVG · GitHub Actions — ACTIVE</div></div>
 
-    <h2>Contact</h2>
+    <h2>Contato</h2>
     <p><a href="https://github.com/001zk">GitHub</a> · <a href="https://github.com/Luiz-alt001">GitHub (alt)</a> · <a href="https://www.linkedin.com/in/luiz-gustavo-de-barros/">LinkedIn</a> · <a href="https://portfolio-luizs-projects-9a2b01d1.vercel.app/">Portfolio</a></p>
 
     <footer>SYSTEM REV. 2026.08 · BUILD 001ZK</footer>
@@ -324,7 +325,7 @@
     }
     function resetPanel() {
       panel.classList.remove('active');
-      panel.textContent = 'Passe o mouse ou toque em um nó do diagrama para ver os detalhes do módulo.';
+      panel.textContent = 'Selecione um repositório no mapa para ver seus detalhes.';
     }
 
     document.querySelectorAll('.ls-node').forEach(function (node) {
