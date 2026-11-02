@@ -8,6 +8,19 @@
 
 </div>
 
+
+### LINGUAGENS MAIS USADAS
+
+![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816215&Signature=MEYCIQD-bQltxLXZEteDLOb1Vz6zuvcZw-JYCcYOH6Y6CA~~2gIhAO0LA-7x4a8eH4N8H3aFCxRsngMlx7ISW7Xf6WUwsMwe&Key-Pair-Id=K1K5N5YNBUUMMN)
+
+### ATIVIDADE RECENTE
+
+![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816215&Signature=MEYCIQCQYzQ1dKIhZ55uPp5-ZB8N8TQKH~hklbSe7ylSK09C7QIhANAGrUtRRH5kL9-RGm5p2IKk4WveCaYZbCYysIfCFaj5&Key-Pair-Id=K1K5N5YNBUUMMN)
+
+### SEQUÊNCIA DE CONTRIBUIÇÃO
+
+![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816215&Signature=MEQCICmwiEqfegvVd8RmSjPUgriGco1hfEKEaGsr56rMedHSAiBi-dAZ5ODTXrikhomp8EWJVcvN6eVje11Alr89zFU9Cw__&Key-Pair-Id=K1K5N5YNBUUMMN)
+
 ---
 
 ## SOBRE
@@ -25,6 +38,31 @@ O mapa acima seleciona automaticamente cinco repositórios públicos da minha co
 **Arroba Banda Larga** — Analista de NOC / TI Interno
 
 Experiência com `GPON` `EPON` `OLT` `ONU` `Zabbix` `IXC` `Proxmox` `VPN`, troubleshooting de redes, infraestrutura corporativa e suporte N2/N3.
+
+---
+
+## SKILLS
+
+<table>
+<tr>
+    <td width="50%" valign="top">
+      <strong>SUPORTE & INFRAESTRUTURA</strong>  
+  
+
+      Redes · NOC · GPON · EPON · OLT · ONU  
+
+      Zabbix · Proxmox · Linux · VPN · N2/N3
+    </td>
+    <td width="50%" valign="top">
+      <strong>DESENVOLVIMENTO & AUTOMAÇÃO</strong>  
+  
+
+      Python · JavaScript · Node.js  
+
+      Google Apps Script · APIs · Git · GitHub
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -59,12 +97,6 @@ Técnico em Informática — concluído
 **OCNA Wireless** — TP-Link
 
 **Ignite Brasil — Empreendedorismo** — Wadhwani Foundation
-
----
-
-## TECNOLOGIAS
-
-`Python` `Node.js` `JavaScript` `Google Apps Script` `Linux` `Git` `GitHub`
 
 ---
 
