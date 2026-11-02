@@ -1,18 +1,25 @@
 {
   "projects": [
     {
-      "name": "NOC 360",
-      "description": "Dashboard de observabilidade de NOC construído sobre a API do base44, consolidando estado de rede e infraestrutura em um único painel.",
-      "stack": ["JavaScript", "base44 API"],
-      "status": "ACTIVE",
-      "url": null
+      "name": "abracadabra",
+      "description": "Plataforma gamificada de educação Web3 que guia iniciantes por aulas, quests e interações verificáveis na Solana Devnet.",
+      "stack": ["Next.js", "React", "TypeScript", "Solana", "Tailwind CSS"],
+      "status": "STRUCTURING",
+      "url": "https://github.com/001zk/abracadabra"
     },
     {
-      "name": "001ZK // LIVING SYSTEM",
-      "description": "Este repositório. Arquitetura de perfil GitHub gerada proceduralmente a partir de dados estruturados.",
-      "stack": ["Python", "SVG", "GitHub Actions"],
+      "name": "GeoPass",
+      "description": "WebGIS para prever, consultar e visualizar passagens de satélites sobre locais escolhidos, combinando mapas e dados orbitais.",
+      "stack": ["Python", "Flask", "JavaScript", "Leaflet", "Skyfield", "SGP4"],
       "status": "ACTIVE",
-      "url": null
+      "url": "https://github.com/001zk/FTL-Brasil---Capstone---TCC---GeoPass"
+    },
+    {
+      "name": "CGNAT-AUDIT-PUBLIC",
+      "description": "Ferramenta de auditoria CGNAT que correlaciona logs de acesso com ranges de portas para identificar o IP privado de origem.",
+      "stack": ["Python", "pandas", "openpyxl", "JSON"],
+      "status": "ACTIVE",
+      "url": "https://github.com/001zk/CGNAT-AUDIT-PUBLIC"
     }
   ]
 }
