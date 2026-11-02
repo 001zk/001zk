@@ -11,15 +11,15 @@
 
 ### LINGUAGENS MAIS USADAS
 
-![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816215&Signature=MEYCIQD-bQltxLXZEteDLOb1Vz6zuvcZw-JYCcYOH6Y6CA~~2gIhAO0LA-7x4a8eH4N8H3aFCxRsngMlx7ISW7Xf6WUwsMwe&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816316&Signature=MEUCIG9u6hx30--XzQv10QFzDv07-tHsoScIpUlLWAYamXw2AiEAu4mvx99jAR6lllgi9-fxxEydDNtFn0SBjEWZB8N7Ook_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### ATIVIDADE RECENTE
 
-![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816215&Signature=MEYCIQCQYzQ1dKIhZ55uPp5-ZB8N8TQKH~hklbSe7ylSK09C7QIhANAGrUtRRH5kL9-RGm5p2IKk4WveCaYZbCYysIfCFaj5&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816316&Signature=MEUCIQDQXU5b3FwnnHaFsboW7vCN7roAWtMzYyzkRRSgE6XksAIgWMdIg5RxdkcBbKiSKuUuqD6KKJ5qojIOV0aa6bM00P8_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### SEQUÊNCIA DE CONTRIBUIÇÃO
 
-![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/jXSX4HAkMl3S6u9DjlmqvE-images_1793643408779_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816215&Signature=MEQCICmwiEqfegvVd8RmSjPUgriGco1hfEKEaGsr56rMedHSAiBi-dAZ5ODTXrikhomp8EWJVcvN6eVje11Alr89zFU9Cw__&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/IdyXgu3CKWvrft1IjiKABu-images_1793643512904_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816316&Signature=MEUCIE9tfCRkIkV1yjYPgIIGmk8eiyQJhhwovF~IKXc~xljqAiEA153su-7~-AK1aht5x3MjOojVHFSfCafX0MPwYOFsOH0_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ---
 
@@ -43,26 +43,15 @@ Experiência com `GPON` `EPON` `OLT` `ONU` `Zabbix` `IXC` `Proxmox` `VPN`, troub
 
 ## SKILLS
 
-<table>
-<tr>
-    <td width="50%" valign="top">
-      <strong>SUPORTE & INFRAESTRUTURA</strong>  
-  
+### SUPORTE & INFRAESTRUTURA
 
-      Redes · NOC · GPON · EPON · OLT · ONU  
+`Redes` · `NOC` · `GPON` · `EPON` · `OLT` · `ONU`
+`Zabbix` · `Proxmox` · `Linux` · `VPN` · `N2/N3`
 
-      Zabbix · Proxmox · Linux · VPN · N2/N3
-    </td>
-    <td width="50%" valign="top">
-      <strong>DESENVOLVIMENTO & AUTOMAÇÃO</strong>  
-  
+### DESENVOLVIMENTO & AUTOMAÇÃO
 
-      Python · JavaScript · Node.js  
-
-      Google Apps Script · APIs · Git · GitHub
-    </td>
-  </tr>
-</table>
+`Python` · `JavaScript` · `Node.js`
+`Google Apps Script` · `APIs` · `Git` · `GitHub`
 
 ---
 
