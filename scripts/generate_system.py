@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-001ZK // LIVING SYSTEM
+001ZK // PROJECT MAP
 generate_system.py
 
 Gera assets/living-system-light.svg e assets/living-system-dark.svg
@@ -165,7 +165,7 @@ def build_svg(theme_name, profile, repos, telemetry):
         f'role="img" aria-labelledby="svgTitle svgDesc" font-family="{FONT_DISPLAY}">'
     )
     parts.append(
-        "<title id=\"svgTitle\">001ZK // LIVING SYSTEM</title>"
+        "<title id=\"svgTitle\">001ZK // PROJECT MAP</title>"
     )
     parts.append(
         "<desc id=\"svgDesc\">Cinco repositórios públicos de 001zk conectados ao "
@@ -287,7 +287,7 @@ def build_svg(theme_name, profile, repos, telemetry):
     )
     parts.append(
         f'<text x="{cx}" y="{cy+13}" text-anchor="middle" font-family="{FONT_MONO}" '
-        f'font-size="8.5" fill="{t["core_text"]}" letter-spacing="1" opacity="0.75">SYSTEM CORE</text>'
+        f'font-size="8.5" fill="{t["core_text"]}" letter-spacing="1" opacity="0.75">PROJECT MAP</text>'
     )
 
     # ---- header block --------------------------------------------------
@@ -298,7 +298,7 @@ def build_svg(theme_name, profile, repos, telemetry):
     )
     parts.append(
         f'<text x="{hx}" y="{hy+30}" font-family="{FONT_MONO}" font-size="14" '
-        f'fill="{t["accent"]}" letter-spacing="3">README</text>'
+        f'fill="{t["accent"]}" letter-spacing="3">PROJECT MAP</text>'
     )
     tagline = ["GITHUB REPOSITORIES", "SIZE-SCALED NODES", "AUTO-SYNCED", "PUBLIC PROJECTS"]
     for i, line in enumerate(tagline):
@@ -328,7 +328,7 @@ def build_svg(theme_name, profile, repos, telemetry):
     )
     parts.append(
         f'<text x="{rx+16}" y="{ry+22}" font-family="{FONT_MONO}" font-size="9" '
-        f'fill="{t["accent"]}" letter-spacing="1">{esc(research.get("id","R-01"))} / RESEARCH NODE — '
+        f'fill="{t["accent"]}" letter-spacing="1">{esc(research.get("id","R-01"))} — '
         f'{esc(research.get("codename",""))}</text>'
     )
     parts.append(
@@ -348,7 +348,7 @@ def build_svg(theme_name, profile, repos, telemetry):
     )
     parts.append(
         f'<text x="60" y="{ty+22}" font-family="{FONT_MONO}" font-size="10" '
-        f'fill="{t["text_dim"]}" letter-spacing="2">SYSTEM TELEMETRY</text>'
+        f'fill="{t["text_dim"]}" letter-spacing="2">GITHUB ACTIVITY</text>'
     )
     tele_fields = [
         ("REPOSITORIES", telemetry.get("public_repos", "N/A")),
