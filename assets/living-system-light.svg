@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 880" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle svgDesc" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif">
-<title id="svgTitle">001ZK // LIVING SYSTEM</title>
+<title id="svgTitle">001ZK // PROJECT MAP</title>
 <desc id="svgDesc">Cinco repositórios públicos de 001zk conectados ao núcleo do sistema; o tamanho de cada planeta representa o tamanho real do repositório no GitHub.</desc>
 <defs>
 <radialGradient id="coreGlow-light" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#0B5FFF" stop-opacity="0.35"/><stop offset="100%" stop-color="#0B5FFF" stop-opacity="0"/></radialGradient>
@@ -77,9 +77,9 @@
 <circle cx="330" cy="400" r="62" fill="#171714" stroke="#0B5FFF" stroke-width="1.6"/>
 <circle cx="330" cy="400" r="76" fill="none" stroke="#C9C9C4" stroke-width="1" stroke-dasharray="2 4"/>
 <text x="330" y="394" text-anchor="middle" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#F7F7F5" letter-spacing="1">001ZK</text>
-<text x="330" y="413" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#F7F7F5" letter-spacing="1" opacity="0.75">SYSTEM CORE</text>
+<text x="330" y="413" text-anchor="middle" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="8.5" fill="#F7F7F5" letter-spacing="1" opacity="0.75">PROJECT MAP</text>
 <text x="60" y="90" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#171714" letter-spacing="0.5">001ZK</text>
-<text x="60" y="120" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#0B5FFF" letter-spacing="3">README</text>
+<text x="60" y="120" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="14" fill="#0B5FFF" letter-spacing="3">PROJECT MAP</text>
 <text x="60" y="148" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">GITHUB REPOSITORIES</text>
 <text x="60" y="164" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">SIZE-SCALED NODES</text>
 <text x="60" y="180" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10.5" fill="#5B5B55" letter-spacing="1">AUTO-SYNCED</text>
@@ -87,11 +87,11 @@
 <text x="1160" y="40" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92" letter-spacing="0.5">SYSTEM REV. 2026.08 · BUILD 001ZK</text>
 <text x="1160" y="54" text-anchor="end" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#9A9A92">Campos dos Goytacazes, RJ, Brazil</text>
 <rect x="60" y="670" width="1080" height="78" rx="4" fill="#FFFFFF" stroke="#C9C9C4" stroke-width="1"/>
-<text x="76" y="692" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#0B5FFF" letter-spacing="1">R-01 / RESEARCH NODE — REUSABLE COMPUTING</text>
+<text x="76" y="692" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#0B5FFF" letter-spacing="1">R-01 — REUSABLE COMPUTING</text>
 <text x="76" y="712" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#171714">Manual de Montagem de um Computador Reciclável Utilizando Peças </text>
 <text x="76" y="732" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#5B5B55" letter-spacing="0.5">HARDWARE  ·  REUSE  ·  SUSTAINABILITY</text>
 <line x1="60" y1="792" x2="1140" y2="792" stroke="#C9C9C4" stroke-width="1"/>
-<text x="60" y="814" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10" fill="#9A9A92" letter-spacing="2">SYSTEM TELEMETRY</text>
+<text x="60" y="814" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="10" fill="#9A9A92" letter-spacing="2">GITHUB ACTIVITY</text>
 <text x="60" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#5B5B55" letter-spacing="0.5">REPOSITORIES</text>
 <text x="60" y="860" font-family="'Space Grotesk','IBM Plex Sans',Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#171714">19</text>
 <text x="320" y="838" font-family="'JetBrains Mono','IBM Plex Mono','SF Mono',Consolas,monospace" font-size="9" fill="#5B5B55" letter-spacing="0.5">FOLLOWERS</text>
