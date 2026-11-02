@@ -1,10 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
+<source media="(prefers-color-scheme: dark)" srcset="assets/living-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/living-system-light.svg">
   <img alt="001ZK Living System — arquitetura interconectando rede, infraestrutura, automação, engenharia de software e pesquisa" src="assets/living-system-light.svg">
-</picture>
-
-<table>
+</picture> <table>
 <tr>
 <td width="33%"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/panel-languages-dark.svg">
@@ -19,11 +17,9 @@
   <img alt="Streak de contribuição" src="assets/panel-streak-light.svg" width="100%">
 </picture></td>
 </tr>
-</table>
+</table> <div align="center">
 
-<div align="center">
-
-**[ OPEN SYSTEM ↗ ](https://001zk.github.io)**
+[**OPEN SYSTEM ↗**](https://001zk.github.io)
 
 </div>
 
@@ -31,10 +27,10 @@
 
 ## SYSTEM
 
-`001ZK // LIVING SYSTEM` representa como componentes de rede, infraestrutura, automação, software e pesquisa se conectam no meu trabalho — não como uma timeline, mas como uma arquitetura.
+`001ZK // LIVING SYSTEM` representa meus repositórios públicos como um sistema conectado — não como uma timeline, mas como uma arquitetura. Os cinco planetas são selecionados automaticamente pela API do GitHub e seu raio acompanha o tamanho real do repositório.
 
-```text
-NETWORK ── INFRASTRUCTURE ── AUTOMATION ── SOFTWARE ── RESEARCH
+```
+REPOSITORY ── REPOSITORY ── REPOSITORY ── REPOSITORY ── REPOSITORY
 ```
 
 ---
@@ -52,12 +48,11 @@ Arroba Banda Larga — Analista de NOC / TI Interno
 
 ## ENGINEERING
 
-| Module | Focus |
-|---|---|
-| `NODE/NET` — Network | GPON, EPON, OLT, ONU, VPN |
-| `NODE/INF` — Infrastructure | NOC, Zabbix, Proxmox, Linux, IXC |
-| `NODE/AUT` — Automation | Python, Node.js, Google Apps Script, APIs |
-| `NODE/SWE` — Software | JavaScript, Git, GitHub, System Design |
+| Repository node | Live data |
+| --- | --- |
+| `REPO/01..05` | Nome, linguagem, estrelas e tamanho real de cada repositório selecionado |
+
+Os dados acima são regenerados em [`data/repos.json`](data/repos.json) pelo [workflow automático](.github/workflows/update-system.yml). O ranking considera os repositórios públicos próprios e não arquivados, ordenados pelo tamanho retornado pela API do GitHub.
 
 **Education**
 Engenharia de Software — Estácio de Sá (cursando)
@@ -68,7 +63,7 @@ Técnico em Informática — concluído
 ## RESEARCH
 
 **R-01 / RESEARCH NODE — REUSABLE COMPUTING**
-*[Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas](https://zenodo.org/records/18135901)*
+[*Manual de Montagem de um Computador Reciclável Utilizando Peças Reaproveitadas*](https://zenodo.org/records/18135901)
 `HARDWARE` `REUSE` `SUSTAINABILITY` · publicado no Zenodo
 
 ---
@@ -111,14 +106,17 @@ O `index.html` já está pronto na raiz do repositório, mas o GitHub Pages
 precisa ser habilitado manualmente uma vez:
 
 1. No repositório, vá em **Settings → Pages**
-2. Em **Source**, selecione **Deploy from a branch**
-3. Branch: **main**, pasta: **/ (root)** → **Save**
-4. Aguarde 1–2 minutos e acesse `https://001zk.github.io`
 
-Sempre que `data/profile.json`, `data/projects.json` ou `data/links.json`
-mudarem, rode (ou deixe o Actions rodar):
+1. Em **Source**, selecione **Deploy from a branch**
+
+1. Branch: **main**, pasta: **/ (root)** → **Save**
+
+1. Aguarde 1–2 minutos e acesse `https://001zk.github.io`
+
+Para sincronizar manualmente ou testar localmente:
 
 ```bash
+python3 scripts/fetch_repos.py
 python3 scripts/generate_system.py
 python3 scripts/generate_web.py
 ```
