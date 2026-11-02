@@ -91,7 +91,7 @@ Técnico em Informática — concluído
 
 ## CONTATO
 
-[GitHub](https://github.com/001zk) · [GitHub alternativo](https://github.com/Luiz-alt001) · [LinkedIn](https://www.linkedin.com/in/luiz-gustavo-de-barros/) · [Portfólio](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
+[GitHub](https://github.com/001zk) · [LinkedIn](https://www.linkedin.com/in/luiz-gustavo-de-barros/) · [Portfólio](https://portfolio-luizs-projects-9a2b01d1.vercel.app/)
 
 ---
 
