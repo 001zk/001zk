@@ -11,15 +11,15 @@
 
 ### LINGUAGENS MAIS USADAS
 
-![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816471&Signature=MEUCIDNlPO7j0Ik03HaR8A6SCDKGl4chCjC7yMxnxQFoja9KAiEAk9UH1FJ8kRtSUKlyDynjxhu-Bz4JYiAY5I~L~Esguz4_&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Linguagens mais usadas nos repositórios](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/UyuNhh665QgFsZriyeY6JX-images_1793643947004_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWxhbmd1YWdlcy1kYXJr.svg?Expires=1793816749&Signature=MEUCIFXYCXaIoFUZUgyO-xA3SF2ie4ueK2uvAxHQJINC6WasAiEA2MFEo-XIJJSjcrmaT4MQjk1Mk2FfYRPc4GBtdaQi5xU_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### ATIVIDADE RECENTE
 
-![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816471&Signature=MEUCIGdN49fAoxemrZq~X~ZM4FNWiBCklP7aQqXNFbKP~YJjAiEAntnuGbW-5Z50TM-w8D2~ky-~xc6onUYThfBGL6Zt83s_&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Atividade recente no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/UyuNhh665QgFsZriyeY6JX-images_1793643947004_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLWFjdGl2aXR5LWRhcms.svg?Expires=1793816749&Signature=MEYCIQCHW90fg1X8sdQEt3-OX7VBddwPuM5gAEBYQ3BXd1nOpgIhAOWi8DfCR1STRouqcMCwzJRmXSSrMxHtB-fqSdVTpCWo&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ### SEQUÊNCIA DE CONTRIBUIÇÃO
 
-![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/n5nCt1vERECcdN3fSAK7Dm-images_1793643664304_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816471&Signature=MEYCIQDARvLJQITBTAd0a4a2ifhVMoNo8DON-9MtO9Eq7qzXYwIhAOdY0Rt~5lr2ERIrjqL-itSbaN3UU9xaIKXpsfKiH7B8&Key-Pair-Id=K1K5N5YNBUUMMN)
+![Sequência de contribuição no GitHub](https://private-us-east-1.manuscdn.com/sessionFile/9n0KGNqDkZXpH8JLwwJfwN/sandbox/UyuNhh665QgFsZriyeY6JX-images_1793643947004_na1fn_L2hvbWUvdWJ1bnR1LzAwMXprLXByb2ZpbGUvYXNzZXRzL3BhbmVsLXN0cmVhay1kYXJr.svg?Expires=1793816749&Signature=MEUCIEzEaQAXmNaCLumIqYbdqQbZA2z3eewKMl6zE0Je50s9AiEAiJeGiWflZVMrFYnXaYLroUP-RXWCbwemQifqAxwuRuI_&Key-Pair-Id=K1K5N5YNBUUMMN)
 
 ---
 
@@ -55,11 +55,29 @@ Experiência com `GPON` `EPON` `OLT` `ONU` `Zabbix` `IXC` `Proxmox` `VPN`, troub
 
 ---
 
-## PROJETOS
+## PROJETOS EM DESTAQUE
 
-Os repositórios do mapa são detectados automaticamente pela API do GitHub e registrados em [`data/repos.json`](data/repos.json). O sistema seleciona os cinco maiores repositórios públicos próprios e atualiza os assets por meio do [workflow automático](.github/workflows/update-system.yml).
+### [abracadabra](https://github.com/001zk/abracadabra)
 
-Projetos adicionais ou selecionados manualmente podem ser consultados em [`data/projects.json`](data/projects.json).
+Plataforma gamificada de educação Web3 que guia iniciantes por aulas, quests e interações verificáveis na Solana Devnet.
+
+`Next.js` `React` `TypeScript` `Solana` `Tailwind CSS`
+
+### [GeoPass](https://github.com/001zk/FTL-Brasil---Capstone---TCC---GeoPass)
+
+WebGIS para prever, consultar e visualizar passagens de satélites sobre locais escolhidos, combinando mapas e dados orbitais.
+
+`Python` `Flask` `JavaScript` `Leaflet` `Skyfield` `SGP4`
+
+### [CGNAT-AUDIT-PUBLIC](https://github.com/001zk/CGNAT-AUDIT-PUBLIC)
+
+Ferramenta de auditoria CGNAT que correlaciona logs de acesso com ranges de portas para identificar o IP privado de origem.
+
+`Python` `pandas` `openpyxl` `JSON`
+
+14 repositórios públicos · 5 projetos no mapa · sincronização automática diária
+
+Os repositórios do mapa são detectados pela API do GitHub e registrados em [`data/repos.json`](data/repos.json). Os projetos destacados são mantidos em [`data/projects.json`](data/projects.json).
 
 ---
 
