@@ -30,6 +30,11 @@
   ],
   "recent_activity": [
     {
+      "name": "Portfolio",
+      "days_ago": 0,
+      "language": "HTML"
+    },
+    {
       "name": "001zk",
       "days_ago": 0,
       "language": "Python"
@@ -41,18 +46,13 @@
     },
     {
       "name": "SIPAT-AVALIAC-O",
-      "days_ago": 111,
+      "days_ago": 112,
       "language": "CSS"
     },
     {
       "name": "Quiz-SIPAT",
-      "days_ago": 112,
+      "days_ago": 113,
       "language": "JavaScript"
-    },
-    {
-      "name": "Portfolio",
-      "days_ago": 120,
-      "language": "HTML"
     }
   ],
   "contribution_streak": 1
