@@ -30,30 +30,30 @@
   ],
   "recent_activity": [
     {
-      "name": "Portfolio",
-      "days_ago": 0,
-      "language": "HTML"
-    },
-    {
       "name": "001zk",
-      "days_ago": 0,
+      "days_ago": 1,
       "language": "Python"
     },
     {
+      "name": "Portfolio",
+      "days_ago": 1,
+      "language": "HTML"
+    },
+    {
       "name": "FTL-Brasil---Capstone---TCC---GeoPass",
-      "days_ago": 0,
+      "days_ago": 1,
       "language": "HTML"
     },
     {
       "name": "SIPAT-AVALIAC-O",
-      "days_ago": 112,
+      "days_ago": 113,
       "language": "CSS"
     },
     {
       "name": "Quiz-SIPAT",
-      "days_ago": 113,
+      "days_ago": 114,
       "language": "JavaScript"
     }
   ],
-  "contribution_streak": 1
+  "contribution_streak": 0
 }
