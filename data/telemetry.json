@@ -31,27 +31,27 @@
   "recent_activity": [
     {
       "name": "001zk",
-      "days_ago": 1,
+      "days_ago": 0,
       "language": "Python"
     },
     {
       "name": "Portfolio",
-      "days_ago": 2,
+      "days_ago": 3,
       "language": "HTML"
     },
     {
       "name": "FTL-Brasil---Capstone---TCC---GeoPass",
-      "days_ago": 2,
+      "days_ago": 3,
       "language": "HTML"
     },
     {
       "name": "SIPAT-AVALIAC-O",
-      "days_ago": 114,
+      "days_ago": 115,
       "language": "CSS"
     },
     {
       "name": "Quiz-SIPAT",
-      "days_ago": 115,
+      "days_ago": 116,
       "language": "JavaScript"
     }
   ],
